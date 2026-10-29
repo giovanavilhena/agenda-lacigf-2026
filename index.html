@@ -832,8 +832,9 @@ function relogio() {
   const abertura = new Date("2026-11-03T08:30:00-03:00"), fimTudo = new Date("2026-11-06T18:00:00-03:00");
   el.classList.toggle("agora", ativos.length > 0);
   if (agora < abertura) {
-    const dias = Math.ceil((abertura - agora) / 864e5);
-    el.textContent = dias <= 1 ? "É amanhã! Youth LACIGF começa às 08h30" : `Faltam ${dias} dias para o Youth LACIGF`;
+    const hojeFortaleza = new Date(agora - 3 * 36e5).toISOString().slice(0, 10);
+    const dias = Math.round((Date.parse("2026-11-03") - Date.parse(hojeFortaleza)) / 864e5);
+    el.textContent = dias === 0 ? "É hoje! O Youth LACIGF começa às 08h30" : dias === 1 ? "É amanhã! O Youth LACIGF começa às 08h30" : `Faltam ${dias} dias para o Youth LACIGF`;
   } else if (agora < fimTudo) {
     const prox = comHora.filter(i => inicio(i) > agora && i.cal).sort((a, b) => inicio(a) - inicio(b))[0];
     el.textContent = ativos.length ? `Agora: ${ativos.filter(i => i.cal).map(i => i.titulo).slice(0, 2).join(" · ") || "intervalo"}` : prox ? `Próximo: ${hh(prox.ini)} · ${prox.titulo}` : "Intervalo";
