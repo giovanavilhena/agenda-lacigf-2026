@@ -249,6 +249,40 @@ footer ul { padding-left: 18px; margin: 6px 0 14px; }
 .fab { position: fixed; right: 16px; bottom: 16px; z-index: 50; }
 .fab .btn { box-shadow: 0 6px 20px rgba(39, 84, 101, .25), 0 3px 0 #c95f0d; }
 .fab .n { background: #fff; color: var(--orange); border-radius: 999px; min-width: 24px; padding: 0 6px; text-align: center; font-size: 14px; }
+.fab { display: flex; gap: 8px; }
+.fab .btn { white-space: nowrap; }
+.fab .btn.exp { background: var(--teal); border-color: var(--teal); color: #fff; box-shadow: 0 6px 20px rgba(39, 84, 101, .25), 0 3px 0 var(--teal-d); }
+.fab .btn[hidden] { display: none; }
+.chip.mini { font-size: 12.5px; padding: 2px 10px; }
+.chip.mini svg { width: 13px; height: 13px; color: var(--red); }
+.chip[disabled] { opacity: .45; cursor: default; }
+#toast { position: fixed; left: 50%; bottom: 84px; z-index: 45; transform: translate(-50%, 16px); opacity: 0; pointer-events: none; background: var(--teal-d); color: #fff; border-radius: 14px; padding: 10px 14px; font-weight: 700; font-size: 14.5px; display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; box-shadow: 0 10px 28px rgba(30, 52, 64, .3); transition: opacity .2s, transform .2s; max-width: calc(100vw - 32px); }
+#toast.on { opacity: 1; transform: translate(-50%, 0); pointer-events: auto; }
+#toast button { background: none; border: 0; padding: 0; color: var(--gold); font-weight: 800; text-decoration: underline; }
+.atalhos { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 12px; }
+.exp-opcoes { display: grid; gap: 10px; }
+.exp-op { background: var(--paper); border: 2px solid var(--line); border-radius: 16px; padding: 12px 14px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 14px; align-items: center; }
+.exp-op b { font-size: 16px; }
+.exp-op p { margin: 0; font-size: 13.5px; color: var(--ink-2); }
+.exp-op .btn { grid-column: 2; grid-row: 1 / span 2; font-size: 14px; }
+.barra { display: flex; flex-wrap: wrap; gap: 10px 12px; align-items: flex-end; background: var(--paper); border: 2px solid var(--line); border-radius: var(--r); padding: 12px 14px; box-shadow: var(--shadow); margin: 6px 0 8px; }
+.campo { display: flex; flex-direction: column; gap: 4px; min-width: 0; font-size: 12px; font-weight: 800; color: var(--ink-3); text-transform: uppercase; letter-spacing: .05em; }
+.campo select, .campo input { font: inherit; font-size: 14.5px; font-weight: 700; text-transform: none; letter-spacing: 0; color: var(--ink); background-color: var(--bg); border: 2px solid var(--line); border-radius: 12px; padding: 7px 12px; min-width: 0; }
+.campo select { appearance: none; -webkit-appearance: none; padding-right: 34px; max-width: 250px; text-overflow: ellipsis; cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23275465' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 12px center; }
+.campo select.ativo { border-color: var(--teal); background-color: var(--teal-soft); color: var(--teal-d); }
+.campo select:focus-visible, .campo input:focus-visible { outline: 3px solid var(--gold); outline-offset: 1px; }
+.busca-c { flex: 1 1 220px; }
+.toggle { display: inline-flex; align-items: center; gap: 6px; border: 2px solid var(--line); background: var(--bg); color: var(--ink); border-radius: 12px; padding: 7px 12px; font-weight: 800; font-size: 14.5px; }
+.toggle svg { width: 15px; height: 15px; color: var(--ink-3); }
+.toggle[aria-pressed="true"] { background: #ffe3ea; border-color: #f3a6bf; color: var(--red); }
+.toggle[aria-pressed="true"] svg { color: var(--red); }
+.barra .contador { margin-left: auto; align-self: center; }
+.limpar { background: none; border: 0; padding: 0; color: var(--teal); font-weight: 800; text-decoration: underline; align-self: center; }
+.limpar[hidden] { display: none; }
+.massa { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center; font-size: 14px; color: var(--ink-3); margin: 0 4px 6px; }
+.massa button { background: none; border: 0; padding: 0; color: var(--teal-d); font-weight: 800; text-decoration: underline; text-underline-offset: 2px; }
+.massa button[disabled] { color: var(--ink-3); text-decoration: none; cursor: default; font-weight: 600; }
 dialog { border: 2px solid var(--line); border-radius: 22px; padding: 0; width: min(640px, calc(100vw - 32px)); max-height: calc(100vh - 48px); background: var(--bg); color: var(--ink); box-shadow: 0 20px 60px rgba(30, 52, 64, .3); }
 dialog::backdrop { background: rgba(30, 52, 64, .35); }
 .dlg-head { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 16px 18px; border-bottom: 2px dashed var(--line); position: sticky; top: 0; background: var(--bg); }
@@ -281,6 +315,15 @@ dialog::backdrop { background: rgba(30, 52, 64, .35); }
   .chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; width: 100%; padding-bottom: 2px; }
   .chip { flex: none; }
   .fav-item { grid-template-columns: 74px minmax(0, 1fr) auto; }
+  .fab { right: 12px; bottom: 12px; }
+  .fab .btn { padding: 8px 13px; font-size: 14.5px; }
+  .so-desk { display: none; }
+  .barra { display: grid; grid-template-columns: 1fr 1fr; }
+  .barra .busca-c, .barra .toggle { grid-column: 1 / -1; }
+  .campo select { max-width: none; width: 100%; }
+  .barra .contador, .barra .limpar { margin-left: 0; }
+  .exp-op { grid-template-columns: 1fr; }
+  .exp-op .btn { grid-column: auto; grid-row: auto; justify-self: start; margin-top: 4px; }
 }
 @media (min-width: 921px) and (max-width: 1100px) { .pgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .eixos { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media print {
@@ -331,7 +374,6 @@ dialog::backdrop { background: rgba(30, 52, 64, .35); }
         <path d="M0 228q28-12 56 0t56 0t56 0t56 0t56 0t60 0v22h-340z" fill="#347992"/>
       </svg>
     </div>
-    <div class="stats" id="stats"></div>
   </div>
 </header>
 
@@ -359,7 +401,8 @@ dialog::backdrop { background: rgba(30, 52, 64, .35); }
 <section id="programacao" class="wrap">
   <h2>Programação</h2>
   <p class="lead">Toque no coração para montar a sua agenda e no calendário para levar uma sessão para o Google, iPhone ou Outlook. Títulos em português são tradução livre; o original fica logo abaixo ou nos detalhes.</p>
-  <div class="filtros" id="filtros"></div>
+  <div class="barra" id="filtros"></div>
+  <div class="massa" id="massa"></div>
   <div id="dias"></div>
 </section>
 
@@ -373,7 +416,7 @@ dialog::backdrop { background: rgba(30, 52, 64, .35); }
     <p class="hint">Quantas pessoas de cada setor estão em cada eixo temático. Clique numa célula para filtrar. Para quem não tem biografia pública, o setor foi deduzido da organização informada pelo evento.</p>
     <div class="matriz-wrap"><table class="matriz" id="matriz"></table></div>
   </div>
-  <div class="filtros" id="pfiltros"></div>
+  <div class="barra" id="pfiltros"></div>
   <div id="pessoas"></div>
 </section>
 
@@ -389,7 +432,7 @@ dialog::backdrop { background: rgba(30, 52, 64, .35); }
     <li><b>Dia 0 do LACIGF (04/11):</b> anunciado com reuniões e oficinas paralelas; a página de eventos paralelos está vazia.</li>
     <li><b>Mesas das 4 plenárias:</b> os temas saíram em 26/10 (a de "bloqueios" virou "resiliência, cibersegurança e infraestrutura"), os nomes ainda não.</li>
     <li><b>Youth LACIGF:</b> a grade saiu só como imagem no Instagram, sem palestrantes nem descrições, e "sujeita a modificações". A festa de abertura (02/11) está sem horário e local, e 3 falas-relâmpago estão sem tema.</li>
-    <li><b>Perfis dos palestrantes:</b> o link oficial de perfis está fora do ar e a página de panelistas de 2026 tem senha. As biografias aqui vêm de fontes públicas e podem estar desatualizadas.</li>
+    <li><b>Perfis dos palestrantes:</b> o link "Consulte el perfil de los panelistas" da agenda oficial abre sem dados (<a href="https://lacigf.org/foro-lacigf-2025/perfil-panelistas/?id_sesion=14640" target="_blank" rel="noopener">exemplo</a>) e a <a href="https://lacigf.org/foro-lacigf-2026/panelistas-2/" target="_blank" rel="noopener">página de panelistas de 2026</a> pede senha. As biografias aqui vêm de fontes públicas e podem estar desatualizadas.</li>
     <li><b>Sessão anunciada fora da grade:</b> "Infraestructura inteligente: redes y la próxima ola de soluciones digitales".</li>
     <li><b>Local do Youth:</b> o site oficial indica o HUB de Inovação da Unifor; uma notícia da Unifor cita o Auditório da Biblioteca.</li>
   </ul>
@@ -397,7 +440,7 @@ dialog::backdrop { background: rgba(30, 52, 64, .35); }
 </main>
 
 <footer class="wrap">
-  <div class="aviso"><b>Guia não oficial.</b> Feito por uma participante, sem vínculo com a organização do LACIGF nem do Youth LACIGF. A palavra final é sempre dos sites oficiais.</div>
+  <div class="aviso"><b>Guia não oficial.</b> Feito por uma participante, sem vínculo com a organização do LACIGF nem do Youth LACIGF. A palavra final é sempre dos sites oficiais.<br>Site feito com o Claude Code (versão 2.1.276), a partir de raspagem de dados públicos do evento: sites do LACIGF e do Youth LACIGF, Instagram do Youth e biografias em fontes públicas.</div>
   <b>Fontes</b> (consultadas em 28 e 29/10/2026)
   <ul>
     <li><a href="https://lacigf.org/foro-lacigf-2026/agenda-2/" target="_blank" rel="noopener">LACIGF: agenda do 19º LACIGF</a> e <a href="https://lacigf.org/foro-lacigf-2026/edicion-19-del-lacigf-2026/" target="_blank" rel="noopener">página da edição</a></li>
@@ -407,7 +450,7 @@ dialog::backdrop { background: rgba(30, 52, 64, .35); }
   </ul>
 </footer>
 
-<div class="fab"><button class="btn laranja" id="abrir-minha"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7.5-4.6-9.6-9.2C1 8.6 3 5 6.6 5c2.1 0 3.6 1.2 5.4 3.1C13.8 6.2 15.3 5 17.4 5 21 5 23 8.6 21.6 11.8 19.5 16.4 12 21 12 21z"/></svg>Minha agenda <span class="n" id="fav-n">0</span></button></div>
+<div class="fab"><button class="btn exp" id="abrir-exportar" hidden></button><button class="btn laranja" id="abrir-minha"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7.5-4.6-9.6-9.2C1 8.6 3 5 6.6 5c2.1 0 3.6 1.2 5.4 3.1C13.8 6.2 15.3 5 17.4 5 21 5 23 8.6 21.6 11.8 19.5 16.4 12 21 12 21z"/></svg>Minha agenda <span class="n" id="fav-n">0</span></button></div>
 
 <dialog id="dlg-minha" aria-labelledby="t-minha">
   <div class="dlg-head"><h3 id="t-minha">Minha agenda</h3><button class="ic" data-fechar aria-label="Fechar">✕</button></div>
@@ -422,6 +465,12 @@ dialog::backdrop { background: rgba(30, 52, 64, .35); }
   </div>
 </dialog>
 
+<dialog id="dlg-exportar" aria-labelledby="t-exportar">
+  <div class="dlg-head"><h3 id="t-exportar">Exportar minha agenda</h3><button class="ic" data-fechar aria-label="Fechar">✕</button></div>
+  <div class="dlg-body" id="exp-body"></div>
+</dialog>
+
+<div id="toast" role="status" aria-live="polite"></div>
 <div id="tip" role="tooltip"></div>
 
 <script>
@@ -540,9 +589,6 @@ function acoes(it) {
 // Números do topo
 const lacigfSess = D.itens.filter(i => i.ev === "lacigf" && i.kind === "sessao");
 const youthSess = D.itens.filter(i => i.ev === "youth" && i.kind === "sessao");
-const stat = (b, s) => `<div class="stat"><b>${b}</b><span>${s}</span></div>`;
-$("#stats").innerHTML = stat(5, "dias de programação") + stat(lacigfSess.length, "sessões no LACIGF 19") + stat(4, "plenárias no LACIGF") +
-  stat(youthSess.length, "atividades no Youth LACIGF") + stat(D.pessoas.length, "pessoas nas mesas do LACIGF");
 
 // Semana
 const SEMANA = {
@@ -622,7 +668,8 @@ for (const d of DIAS) {
   const evs = [...new Set(doDia.map(i => i.ev))];
   html += `<div class="dia" id="dia-${d.d}"><div class="dia-head"><h3>${d.dow}, ${dm(d.d)}</h3>
     ${evs.includes("youth") ? `<span class="tag youth">${ICON.folha}Youth LACIGF · Unifor</span>` : ""}
-    ${evs.includes("lacigf") ? `<span class="tag lacigf">${ICON.globo}LACIGF 19 · Centro de Eventos do Ceará</span>` : ""}</div>`;
+    ${evs.includes("lacigf") ? `<span class="tag lacigf">${ICON.globo}LACIGF 19 · Centro de Eventos do Ceará</span>` : ""}
+    <button class="chip mini" data-dia-sel="${d.d}"></button></div>`;
   if (evs.includes("lacigf")) html += `<div class="colhead"><span></span><span>Sala 1</span><span>Sala 2</span><span>Sala 3</span></div>`;
   for (let k = 0; k < doDia.length; k++) {
     const it = doDia[k];
@@ -650,27 +697,47 @@ for (const d of DIAS) {
 $("#dias").innerHTML = html;
 
 // Filtros da programação
-$("#filtros").innerHTML = `<div class="chips"><button class="chip" data-t="" aria-pressed="true">Tudo</button>` +
-  D.temas.map(t => `<button class="chip" data-t="${t.chave}" aria-pressed="false"><i class="dot" style="--c:var(--t-${t.chave})"></i>${esc(t.nome)}</button>`).join("") +
-  `<button class="chip" data-so-fav aria-pressed="false">${'<span style="color:var(--red)">♥</span>'} Só a minha agenda</button></div>` +
-  `<input class="busca" id="q" type="search" placeholder="Buscar tema, pessoa ou organização" aria-label="Buscar na programação"><span class="contador" id="contador"></span>`;
+$("#filtros").innerHTML =
+  `<label class="campo"><span>Eixo do LACIGF</span><select id="f-eixo"><option value="">Todos os eixos</option>${D.temas.map(t => `<option value="${t.chave}">${esc(t.nome)}</option>`).join("")}</select></label>` +
+  `<label class="campo busca-c"><span>Buscar</span><input id="q" type="search" placeholder="Tema, pessoa ou organização"></label>` +
+  `<button class="toggle" data-so-fav aria-pressed="false">${ICON.coracao}Só a minha agenda</button>` +
+  `<span class="contador" id="contador"></span>`;
+$("#massa").innerHTML = `<span>Nesta lista:</span><button id="massa-marca"></button><span aria-hidden="true">·</span><button id="massa-desmarca"></button>`;
 const indice = new Map(sessoes.map(s => [s.id, norm([s.titulo, s.original, s.resumo, s.descricao, s.formato, temaNome[s.tema], ...(s.pessoas || []).flatMap(p => [p.nome, p.org])].join(" "))]));
 const estado = { tema: "", q: "", soFav: false };
+const passa = s => (!estado.tema || s.tema === estado.tema) && (!estado.q || indice.get(s.id).includes(estado.q)) && (!estado.soFav || favs.has(s.id));
+function atualizaMassa() {
+  const vis = sessoes.filter(passa).map(s => s.id);
+  const marcadas = vis.filter(id => favs.has(id)).length;
+  const filtrado = estado.tema || estado.q || estado.soFav;
+  const m = $("#massa-marca"), d = $("#massa-desmarca");
+  m.textContent = filtrado ? `♥ marcar as ${vis.length} sessões filtradas` : `♥ marcar todas as ${vis.length} sessões`;
+  m.disabled = !vis.length || marcadas === vis.length;
+  d.textContent = marcadas ? `desmarcar ${filtrado ? "as filtradas" : "todas"} (${marcadas})` : "nenhuma marcada";
+  d.disabled = !marcadas;
+}
 function aplica() {
   let vis = 0;
   for (const s of sessoes) {
     const el = document.getElementById(s.id);
-    const ok = (!estado.tema || s.tema === estado.tema) && (!estado.q || indice.get(s.id).includes(estado.q)) && (!estado.soFav || favs.has(s.id));
+    const ok = passa(s);
     el.classList.toggle("dim", !ok); vis += ok;
   }
-  document.querySelectorAll("#filtros [data-t]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.t === estado.tema)));
+  $("#f-eixo").value = estado.tema;
+  $("#f-eixo").classList.toggle("ativo", !!estado.tema);
   document.querySelectorAll("#g-temas [data-tema]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.tema === estado.tema)));
   $("[data-so-fav]").setAttribute("aria-pressed", String(estado.soFav));
   $("#contador").textContent = vis === sessoes.length ? `${vis} sessões` : `${vis} de ${sessoes.length} sessões`;
+  atualizaMassa();
 }
+$("#f-eixo").addEventListener("change", e => { estado.tema = e.target.value; aplica(); });
 $("#filtros").addEventListener("click", e => {
-  const b = e.target.closest("[data-t]"); if (b) { estado.tema = b.dataset.t; aplica(); }
   if (e.target.closest("[data-so-fav]")) { estado.soFav = !estado.soFav; aplica(); }
+});
+$("#massa").addEventListener("click", e => {
+  const vis = sessoes.filter(passa).map(s => s.id);
+  if (e.target.closest("#massa-marca")) marca(vis, true, `${vis.length} sessões na sua agenda`);
+  if (e.target.closest("#massa-desmarca")) { const ids = vis.filter(id => favs.has(id)); marca(ids, false, `${ids.length} sessões desmarcadas`); }
 });
 $("#q").addEventListener("input", e => { estado.q = norm(e.target.value.trim()); aplica(); });
 document.querySelectorAll("#g-temas [role=button]").forEach(row => {
@@ -683,13 +750,25 @@ document.querySelectorAll("#g-temas [role=button]").forEach(row => {
 document.addEventListener("click", e => {
   const f = e.target.closest("[data-fav]");
   if (f) {
-    const id = f.dataset.fav;
-    favs.has(id) ? favs.delete(id) : favs.add(id);
-    salvaFavs();
-    document.querySelectorAll(`[data-fav="${id}"]`).forEach(b => b.setAttribute("aria-pressed", String(favs.has(id))));
-    contaFavs(); if ($("#dlg-minha").open) minhaAgenda(); if (estado.soFav) aplica();
+    const id = f.dataset.fav, on = !favs.has(id);
+    on ? favs.add(id) : favs.delete(id);
+    salvaFavs(); atualizaFavs();
+    toast(on ? "♥ Na sua agenda" : "Saiu da sua agenda");
     return;
   }
+  const m = e.target.closest("[data-massa]");
+  if (m) {
+    const ids = m.dataset.ids.split(",").filter(Boolean), on = m.dataset.massa === "1";
+    marca(ids, on, on ? `${ids.length} ${ids.length === 1 ? "item marcado" : "itens marcados"}` : "Agenda limpa");
+    return;
+  }
+  const ds = e.target.closest("[data-dia-sel]");
+  if (ds) {
+    const ids = calDoDia(ds.dataset.diaSel).map(i => i.id), todos = ids.every(id => favs.has(id));
+    marca(ids, !todos, todos ? `${dm(ds.dataset.diaSel)} desmarcado` : `${dm(ds.dataset.diaSel)} inteiro na sua agenda`);
+    return;
+  }
+  if (e.target.closest("[data-abrir-exportar]")) { $("#dlg-minha").close(); abreExportar(); return; }
   const i = e.target.closest("[data-ics]");
   if (i) { const it = porId[i.dataset.ics]; baixa(`lacigf-2026-${it.id}.ics`, ics([it], "LACIGF 2026")); }
   document.querySelectorAll("details.calm[open]").forEach(d => { if (!d.contains(e.target)) d.open = false; });
@@ -698,12 +777,92 @@ document.addEventListener("toggle", e => {
   if (e.target.matches?.("details.calm") && e.target.open) document.querySelectorAll("details.calm[open]").forEach(d => { if (d !== e.target) d.open = false; });
 }, true);
 
+// Seleção em lote
+const calItens = D.itens.filter(i => i.cal);
+const calDoDia = d => calItens.filter(i => i.dia === d);
+const listaFavs = () => [...favs].map(id => porId[id]).filter(Boolean).sort((a, b) => (a.dia + (a.ini || "")).localeCompare(b.dia + (b.ini || "")));
+function marca(ids, on, msg) {
+  const antes = new Set(favs);
+  ids.forEach(id => (on ? favs.add(id) : favs.delete(id)));
+  salvaFavs(); atualizaFavs();
+  if (msg) toast(msg, () => { favs = antes; salvaFavs(); atualizaFavs(); toast("Desfeito"); });
+}
+function atualizaFavs() {
+  document.querySelectorAll("[data-fav]").forEach(b => b.setAttribute("aria-pressed", String(favs.has(b.dataset.fav))));
+  contaFavs();
+  document.querySelectorAll("[data-dia-sel]").forEach(b => {
+    const ids = calDoDia(b.dataset.diaSel).map(i => i.id), todos = ids.every(id => favs.has(id));
+    b.innerHTML = `${ICON.coracao}${todos ? "desmarcar o dia" : `marcar o dia todo (${ids.length})`}`;
+  });
+  if ($("#dlg-minha").open) minhaAgenda();
+  if ($("#dlg-exportar").open) exportar();
+  estado.soFav ? aplica() : atualizaMassa();
+}
+function atalhos() {
+  const y = calItens.filter(i => i.ev === "youth").map(i => i.id), l = calItens.filter(i => i.ev === "lacigf").map(i => i.id);
+  const b = (ids, on, label) => `<button class="chip mini" data-massa="${on ? 1 : 0}" data-ids="${ids.join(",")}">${label}</button>`;
+  return `<div class="atalhos">${b(y, true, `${ICON.coracao}todo o Youth (${y.length})`)}${b(l, true, `${ICON.coracao}todo o LACIGF (${l.length})`)}${b(calItens.map(i => i.id), true, `${ICON.coracao}tudo (${calItens.length})`)}${favs.size ? b([...favs], false, `limpar minha agenda (${favs.size})`) : ""}</div>`;
+}
+let toastT;
+function toast(msg, desfazer) {
+  const t = $("#toast");
+  t.innerHTML = `<span>${esc(msg)}</span>${desfazer ? '<button data-t="desf">Desfazer</button>' : ""}${favs.size ? `<button data-t="exp">Exportar ${favs.size} para o calendário</button>` : ""}`;
+  t.classList.add("on");
+  t.onclick = e => {
+    const b = e.target.closest("[data-t]"); if (!b) return;
+    if (b.dataset.t === "desf") desfazer(); else { t.classList.remove("on"); abreExportar(); }
+  };
+  clearTimeout(toastT); toastT = setTimeout(() => t.classList.remove("on"), 5000);
+}
+
+// Exportar tudo de uma vez
+let passoGoogle = 0;
+function exportar() {
+  const lista = listaFavs(), n = lista.length;
+  if (!n) {
+    $("#exp-body").innerHTML = `<p style="margin-top:0">Sua agenda está vazia. Marque sessões com o coração ou use um atalho:</p>${atalhos()}`;
+    return;
+  }
+  if (passoGoogle > n) passoGoogle = 0;
+  $("#exp-body").innerHTML = `<p class="nota" style="margin:0 0 12px"><b>${n} ${n === 1 ? "item" : "itens"}</b> vão juntos, com horário, local e link para os detalhes.</p>
+    <div class="exp-opcoes">
+      <div class="exp-op"><b>Google Agenda</b><p>Baixa o arquivo e abre a tela de importar do Google: escolha o arquivo baixado e clique em Importar.</p><button class="btn cheio" data-exp="google">Exportar para o Google</button></div>
+      <div class="exp-op"><b>iPhone, iPad e Mac</b><p>Baixa o arquivo; o Calendário abre e você toca em "Adicionar tudo".</p><button class="btn cheio" data-exp="apple">Exportar para a Apple</button></div>
+      <div class="exp-op"><b>Outlook</b><p>No computador, abra o arquivo baixado. No Outlook na web: Adicionar calendário › Carregar do arquivo.</p><button class="btn cheio" data-exp="outlook">Exportar para o Outlook</button></div>
+      <div class="exp-op"><b>Outro calendário</b><p>Só o arquivo .ics, que qualquer calendário importa.</p><button class="btn" data-exp="ics">Baixar .ics</button></div>
+    </div>
+    <p class="nota">No celular Android, o app do Google Agenda não importa arquivo. Dá para adicionar direto no Google, um item por toque:</p>
+    <div class="acoes" style="margin-top:8px"><button class="btn" data-exp="passo">${passoGoogle < n ? `Abrir no Google: ${passoGoogle + 1} de ${n}` : "Pronto! Recomeçar"}</button></div>
+    ${passoGoogle < n ? `<p class="nota" style="margin-top:6px">Próximo: ${esc(lista[passoGoogle].titulo)}</p>` : ""}
+    <h4 style="margin:18px 0 4px;font-size:15px">Ajustar a seleção</h4>${atalhos()}`;
+}
+function abreExportar() { passoGoogle = 0; exportar(); $("#dlg-exportar").showModal(); }
+$("#exp-body").addEventListener("click", e => {
+  const b = e.target.closest("[data-exp]"); if (!b) return;
+  const lista = listaFavs(), tipo = b.dataset.exp;
+  if (tipo === "passo") {
+    if (passoGoogle >= lista.length) passoGoogle = 0;
+    else { window.open(googleUrl(lista[passoGoogle]), "_blank", "noopener"); passoGoogle++; }
+    exportar(); return;
+  }
+  baixa("minha-agenda-lacigf-2026.ics", ics(lista, "Minha agenda LACIGF 2026"));
+  if (tipo === "google") window.open("https://calendar.google.com/calendar/r/settings/export", "_blank", "noopener");
+  if (tipo === "outlook") window.open("https://outlook.live.com/calendar/", "_blank", "noopener");
+  b.textContent = "Arquivo baixado ✓";
+});
+$("#abrir-exportar").onclick = abreExportar;
+
 // Minha agenda
-const contaFavs = () => ($("#fav-n").textContent = favs.size);
+const contaFavs = () => {
+  $("#fav-n").textContent = favs.size;
+  const b = $("#abrir-exportar");
+  b.hidden = !favs.size;
+  b.innerHTML = `${ICON.cal}Exportar<span class="so-desk"> todas</span>`;
+};
 function minhaAgenda() {
-  const lista = [...favs].map(id => porId[id]).filter(Boolean).sort((a, b) => (a.dia + (a.ini || "")).localeCompare(b.dia + (b.ini || "")));
+  const lista = listaFavs();
   if (!lista.length) {
-    $("#minha-body").innerHTML = `<p>Sua agenda ainda está vazia. Toque no ${'<span style="color:var(--red)">♥</span>'} das sessões que quer ver e elas aparecem aqui, em ordem, com aviso de choque de horário.</p>`;
+    $("#minha-body").innerHTML = `<p style="margin-top:0">Sua agenda ainda está vazia. Toque no ${'<span style="color:var(--red)">♥</span>'} das sessões que quer ver, ou use um atalho:</p>${atalhos()}`;
     return;
   }
   let fimAnt = null;
@@ -714,15 +873,12 @@ function minhaAgenda() {
       <div><a href="#${it.id}" data-fechar>${esc(it.titulo)}</a><br><span class="muted">${it.ev === "lacigf" ? "LACIGF 19" : "Youth LACIGF"}${it.sala ? " · Sala " + it.sala : ""}</span>${conflito ? '<br><span class="conf">choca com a anterior</span>' : ""}</div>
       <div class="acts"><a class="ic" href="${esc(googleUrl(it))}" target="_blank" rel="noopener" aria-label="Google Agenda" title="Google Agenda">${ICON.cal}</a><button class="ic fav" data-fav="${it.id}" aria-pressed="true" aria-label="Tirar da minha agenda">${ICON.coracao}</button></div></div>`;
   }).join("");
-  $("#minha-body").innerHTML = `<div class="acoes" style="margin-bottom:8px"><button class="btn laranja" id="baixar-minha">${ICON.cal}Baixar tudo (.ics)</button></div>
-    <p class="nota" style="margin:0 0 6px">No iPhone ou Mac, abra o arquivo e ele entra no calendário. No Google Agenda (computador): Configurações › Importar e exportar › Importar. Ou use o botão de calendário de cada sessão.</p>${linhas}`;
-  $("#baixar-minha").onclick = () => baixa("minha-agenda-lacigf-2026.ics", ics(lista, "Minha agenda LACIGF 2026"));
+  $("#minha-body").innerHTML = `<div class="acoes" style="margin-bottom:10px"><button class="btn laranja" data-abrir-exportar>${ICON.cal}Exportar todas (${lista.length}) para o calendário</button></div>${atalhos()}${linhas}`;
 }
 $("#abrir-minha").onclick = () => { minhaAgenda(); $("#dlg-minha").showModal(); };
 document.querySelectorAll("dialog").forEach(d => d.addEventListener("click", e => {
   if (e.target === d || e.target.closest("[data-fechar]")) d.close();
 }));
-contaFavs();
 
 // Assinatura
 const CALS = [["agenda-completa.ics", "Tudo: LACIGF 19 + Youth LACIGF"], ["lacigf-19.ics", "Só o LACIGF 19 (05 e 06/11)"], ["youth-lacigf.ics", "Só o Youth LACIGF (02 a 04/11)"]];
@@ -764,16 +920,20 @@ matriz();
 $("#matriz").addEventListener("click", e => {
   const c = e.target.closest("[data-mt]"); if (!c) return;
   pEstado.tema = c.dataset.mt; pEstado.setor = c.dataset.ms; pEstado.agrupar = "tema"; desenhaPessoas();
+  $("#pfiltros").scrollIntoView({ block: "start" });
 });
 const AREAS = [...new Set(pessoas.flatMap(p => p.areas || []))].sort();
+const opt = (v, label) => `<option value="${esc(v)}">${esc(label)}</option>`;
+$("#pfiltros").innerHTML =
+  `<label class="campo"><span>Trilha</span><select data-pf="tema">${opt("", "Todas")}${D.temas.map(t => opt(t.chave, t.nome)).join("")}</select></label>` +
+  `<label class="campo"><span>Setor</span><select data-pf="setor">${opt("", "Todos")}${setoresUsados.map(s => opt(s, s)).join("")}</select></label>` +
+  `<label class="campo"><span>Área de experiência</span><select data-pf="area">${opt("", "Todas")}${AREAS.map(a => opt(a, a)).join("")}</select></label>` +
+  `<label class="campo"><span>Agrupar por</span><select data-pf="agrupar">${opt("tema", "Trilha")}${opt("setor", "Setor")}${opt("area", "Área")}</select></label>` +
+  `<label class="campo busca-c"><span>Buscar</span><input id="pq" type="search" placeholder="Nome, cargo, país ou organização"></label>` +
+  `<span class="contador" id="pcont"></span><button class="limpar" id="plimpar" hidden>limpar filtros</button>`;
 function pFiltros() {
-  const chip = (attr, v, label, on, dot) => `<button class="chip" ${attr}="${esc(v)}" aria-pressed="${on}">${dot || ""}${esc(label)}</button>`;
-  $("#pfiltros").innerHTML =
-    `<div class="chips">${chip("data-pt", "", "Todas as trilhas", !pEstado.tema)}${D.temas.map(t => chip("data-pt", t.chave, t.nome, pEstado.tema === t.chave, `<i class="dot" style="--c:var(--t-${t.chave})"></i>`)).join("")}</div>` +
-    `<div class="chips">${chip("data-ps", "", "Todos os setores", !pEstado.setor)}${setoresUsados.map(s => chip("data-ps", s, s, pEstado.setor === s)).join("")}</div>` +
-    (AREAS.length ? `<div class="chips">${chip("data-pa", "", "Todas as áreas", !pEstado.area)}${AREAS.map(a => chip("data-pa", a, a, pEstado.area === a)).join("")}</div>` : "") +
-    `<div class="chips"><span class="muted" style="font-weight:800;align-self:center">Agrupar por:</span>${chip("data-pg", "tema", "trilha", pEstado.agrupar === "tema")}${chip("data-pg", "setor", "setor", pEstado.agrupar === "setor")}${AREAS.length ? chip("data-pg", "area", "área de experiência", pEstado.agrupar === "area") : ""}</div>` +
-    `<input class="busca" id="pq" type="search" placeholder="Buscar nome, cargo, país ou organização" aria-label="Buscar palestrantes" value="${esc(pEstado.qRaw || "")}"><span class="contador" id="pcont"></span>`;
+  document.querySelectorAll("#pfiltros select").forEach(s => { s.value = pEstado[s.dataset.pf]; s.classList.toggle("ativo", s.dataset.pf !== "agrupar" && !!s.value); });
+  $("#plimpar").hidden = !(pEstado.tema || pEstado.setor || pEstado.area || pEstado.q);
 }
 function pcard(p) {
   const sem = p.fraca;
@@ -783,6 +943,7 @@ function pcard(p) {
     <div class="tags"><span class="tg setor">${esc(p.setor)}${sem && p.setor !== "Sem dados" ? " · pela organização" : ""}</span>${p.areas.map(a => `<span class="tg">${esc(a)}</span>`).join("")}</div>
     <p class="bio ${sem ? "sem" : ""}">${sem ? "Sem biografia pública encontrada." : esc(p.bio)}</p>
     <ul class="psess">${p.sessoes.map(s => { const it = porId[s.id]; return `<li><i class="dot" style="--c:var(--t-${it.tema})"></i><span><span class="papel">${esc(s.papel)}</span> <a href="#${it.id}">${esc(it.titulo)}</a></span></li>`; }).join("")}</ul>
+    <button class="chip mini" style="margin-top:8px" data-massa="1" data-ids="${p.sessoes.map(s => s.id).join(",")}">${ICON.coracao}${p.sessoes.length === 1 ? "marcar a sessão" : `marcar as ${p.sessoes.length} sessões`}</button>
     ${p.fonte && !sem ? `<p class="fonte">Fonte: <a href="${esc(p.fonte)}" target="_blank" rel="noopener nofollow">${esc(new URL(p.fonte).hostname.replace(/^www\./, ""))}</a>${p.confianca === "media" ? " · confirmar" : ""}</p>` : ""}
   </article>`;
 }
@@ -796,16 +957,10 @@ function desenhaPessoas() {
   $("#pessoas").innerHTML = grupos.filter(g => g.lista.length).map(g => `<div class="grupo-h"><i class="dot" style="--c:${g.cor};width:14px;height:14px"></i><h3>${esc(g.titulo)}</h3><span class="n">${g.lista.length}</span></div>
     <div class="pgrid">${g.lista.map(pcard).join("")}</div>`).join("") || `<p class="muted">Ninguém com esses filtros.</p>`;
   $("#pcont").textContent = `${vis.length} de ${pessoas.length} pessoas`;
-  const q = $("#pq"); q.oninput = e => { pEstado.qRaw = e.target.value; pEstado.q = norm(e.target.value.trim()); const pos = e.target.selectionStart; desenhaPessoas(); const n = $("#pq"); n.focus(); n.setSelectionRange(pos, pos); };
 }
-$("#pfiltros").addEventListener("click", e => {
-  const b = e.target.closest("button"); if (!b) return;
-  if ("pt" in b.dataset) pEstado.tema = b.dataset.pt;
-  if ("ps" in b.dataset) pEstado.setor = b.dataset.ps;
-  if ("pa" in b.dataset) pEstado.area = b.dataset.pa;
-  if ("pg" in b.dataset) pEstado.agrupar = b.dataset.pg;
-  desenhaPessoas();
-});
+$("#pfiltros").addEventListener("change", e => { const s = e.target.closest("select"); if (s) { pEstado[s.dataset.pf] = s.value; desenhaPessoas(); } });
+$("#pq").addEventListener("input", e => { pEstado.q = norm(e.target.value.trim()); desenhaPessoas(); });
+$("#plimpar").addEventListener("click", () => { Object.assign(pEstado, { tema: "", setor: "", area: "", q: "" }); $("#pq").value = ""; desenhaPessoas(); });
 desenhaPessoas();
 
 // Eixos do Youth
@@ -853,6 +1008,8 @@ function marcaDia() {
 }
 addEventListener("scroll", () => requestAnimationFrame(marcaDia), { passive: true });
 marcaDia();
+aplica();
+atualizaFavs();
 </script>
 </body>
 </html>
