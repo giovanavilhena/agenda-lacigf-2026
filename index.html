@@ -259,7 +259,11 @@ footer ul { padding-left: 18px; margin: 6px 0 14px; }
 #toast { position: fixed; left: 50%; bottom: 84px; z-index: 45; transform: translate(-50%, 16px); opacity: 0; pointer-events: none; background: var(--teal-d); color: #fff; border-radius: 14px; padding: 10px 14px; font-weight: 700; font-size: 14.5px; display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; box-shadow: 0 10px 28px rgba(30, 52, 64, .3); transition: opacity .2s, transform .2s; max-width: calc(100vw - 32px); }
 #toast.on { opacity: 1; transform: translate(-50%, 0); pointer-events: auto; }
 #toast button { background: none; border: 0; padding: 0; color: var(--gold); font-weight: 800; text-decoration: underline; }
-.atalhos { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 12px; }
+.alvos { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; }
+.alvo { border: 2px solid var(--line); background: var(--paper); color: var(--ink); border-radius: 999px; padding: 6px 13px; font-weight: 800; font-size: 14px; }
+.alvo[aria-checked="true"] { background: var(--teal-d); border-color: var(--teal-d); color: #fff; }
+.alvo[disabled] { opacity: .45; cursor: default; }
+button.link { background: none; border: 0; padding: 0; color: var(--teal-d); font: inherit; font-weight: 800; text-decoration: underline; text-underline-offset: 2px; }
 .exp-opcoes { display: grid; gap: 10px; }
 .exp-op { background: var(--paper); border: 2px solid var(--line); border-radius: 16px; padding: 12px 14px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 14px; align-items: center; }
 .exp-op b { font-size: 16px; }
@@ -466,7 +470,7 @@ dialog::backdrop { background: rgba(30, 52, 64, .35); }
 </dialog>
 
 <dialog id="dlg-exportar" aria-labelledby="t-exportar">
-  <div class="dlg-head"><h3 id="t-exportar">Exportar minha agenda</h3><button class="ic" data-fechar aria-label="Fechar">✕</button></div>
+  <div class="dlg-head"><h3 id="t-exportar">Exportar para o calendário</h3><button class="ic" data-fechar aria-label="Fechar">✕</button></div>
   <div class="dlg-body" id="exp-body"></div>
 </dialog>
 
@@ -768,7 +772,13 @@ document.addEventListener("click", e => {
     marca(ids, !todos, todos ? `${dm(ds.dataset.diaSel)} desmarcado` : `${dm(ds.dataset.diaSel)} inteiro na sua agenda`);
     return;
   }
-  if (e.target.closest("[data-abrir-exportar]")) { $("#dlg-minha").close(); abreExportar(); return; }
+  if (e.target.closest("[data-abrir-exportar]")) { $("#dlg-minha").close(); abreExportar("minha"); return; }
+  if (e.target.closest("[data-restaurar]")) {
+    const ant = anterior();
+    guardaAnterior(favs); favs = new Set(ant); salvaFavs(); atualizaFavs();
+    toast(`Seleção anterior restaurada (${ant.length})`);
+    return;
+  }
   const i = e.target.closest("[data-ics]");
   if (i) { const it = porId[i.dataset.ics]; baixa(`lacigf-2026-${it.id}.ics`, ics([it], "LACIGF 2026")); }
   document.querySelectorAll("details.calm[open]").forEach(d => { if (!d.contains(e.target)) d.open = false; });
@@ -781,11 +791,21 @@ document.addEventListener("toggle", e => {
 const calItens = D.itens.filter(i => i.cal);
 const calDoDia = d => calItens.filter(i => i.dia === d);
 const listaFavs = () => [...favs].map(id => porId[id]).filter(Boolean).sort((a, b) => (a.dia + (a.ini || "")).localeCompare(b.dia + (b.ini || "")));
+// Cópia da seleção antes de qualquer mudança em lote, para poder restaurar depois
+const CHAVE_ANT = "agenda-lacigf-2026:anterior";
+const guardaAnterior = s => { try { localStorage.setItem(CHAVE_ANT, JSON.stringify([...s])); } catch (e) {} };
+const anterior = () => { try { return JSON.parse(localStorage.getItem(CHAVE_ANT) || "[]").filter(id => porId[id]); } catch (e) { return []; } };
 function marca(ids, on, msg) {
   const antes = new Set(favs);
+  guardaAnterior(antes);
   ids.forEach(id => (on ? favs.add(id) : favs.delete(id)));
   salvaFavs(); atualizaFavs();
   if (msg) toast(msg, () => { favs = antes; salvaFavs(); atualizaFavs(); toast("Desfeito"); });
+}
+function restaurarHtml() {
+  const ant = anterior();
+  const igual = ant.length === favs.size && ant.every(id => favs.has(id));
+  return ant.length && !igual ? `<p class="nota" style="margin:0 0 10px">Mudou a seleção sem querer? <button class="link" data-restaurar>Restaurar a seleção anterior (${ant.length})</button></p>` : "";
 }
 function atualizaFavs() {
   document.querySelectorAll("[data-fav]").forEach(b => b.setAttribute("aria-pressed", String(favs.has(b.dataset.fav))));
@@ -798,33 +818,41 @@ function atualizaFavs() {
   if ($("#dlg-exportar").open) exportar();
   estado.soFav ? aplica() : atualizaMassa();
 }
-function atalhos() {
-  const y = calItens.filter(i => i.ev === "youth").map(i => i.id), l = calItens.filter(i => i.ev === "lacigf").map(i => i.id);
-  const b = (ids, on, label) => `<button class="chip mini" data-massa="${on ? 1 : 0}" data-ids="${ids.join(",")}">${label}</button>`;
-  return `<div class="atalhos">${b(y, true, `${ICON.coracao}todo o Youth (${y.length})`)}${b(l, true, `${ICON.coracao}todo o LACIGF (${l.length})`)}${b(calItens.map(i => i.id), true, `${ICON.coracao}tudo (${calItens.length})`)}${favs.size ? b([...favs], false, `limpar minha agenda (${favs.size})`) : ""}</div>`;
-}
 let toastT;
 function toast(msg, desfazer) {
   const t = $("#toast");
+  const host = document.querySelector("dialog[open]") || document.body;
+  if (t.parentNode !== host) host.appendChild(t);
   t.innerHTML = `<span>${esc(msg)}</span>${desfazer ? '<button data-t="desf">Desfazer</button>' : ""}${favs.size ? `<button data-t="exp">Exportar ${favs.size} para o calendário</button>` : ""}`;
   t.classList.add("on");
   t.onclick = e => {
     const b = e.target.closest("[data-t]"); if (!b) return;
-    if (b.dataset.t === "desf") desfazer(); else { t.classList.remove("on"); abreExportar(); }
+    if (b.dataset.t === "desf") desfazer(); else { t.classList.remove("on"); abreExportar("minha"); }
   };
   clearTimeout(toastT); toastT = setTimeout(() => t.classList.remove("on"), 5000);
 }
 
 // Exportar tudo de uma vez
-let passoGoogle = 0;
+// Exportar não mexe na seleção: escolhe-se o conjunto (minha agenda ou um evento inteiro)
+let passoGoogle = 0, alvo = "minha";
+const ALVOS = {
+  minha: ["Minha agenda", () => listaFavs(), "minha-agenda-lacigf-2026.ics"],
+  lacigf: ["Todo o LACIGF 19", () => calItens.filter(i => i.ev === "lacigf"), "lacigf-19.ics"],
+  youth: ["Todo o Youth LACIGF", () => calItens.filter(i => i.ev === "youth"), "youth-lacigf.ics"],
+  tudo: ["Tudo", () => calItens, "agenda-completa-lacigf-2026.ics"],
+};
+const listaAlvo = () => ALVOS[alvo][1]();
 function exportar() {
-  const lista = listaFavs(), n = lista.length;
+  const lista = listaAlvo(), n = lista.length;
+  const seletor = `<p class="nota" style="margin:0 0 6px"><b>O que exportar?</b></p><div class="alvos" role="radiogroup" aria-label="O que exportar">` +
+    Object.entries(ALVOS).map(([k, [nome, f]]) => { const q = f().length; return `<button class="alvo" role="radio" data-alvo="${k}" aria-checked="${k === alvo}"${q ? "" : " disabled"}>${nome} (${q})</button>`; }).join("") + `</div>`;
   if (!n) {
-    $("#exp-body").innerHTML = `<p style="margin-top:0">Sua agenda está vazia. Marque sessões com o coração ou use um atalho:</p>${atalhos()}`;
+    $("#exp-body").innerHTML = seletor + `<p>Sua agenda está vazia. Marque sessões com o coração na programação, ou escolha um evento inteiro acima.</p>`;
     return;
   }
   if (passoGoogle > n) passoGoogle = 0;
-  $("#exp-body").innerHTML = `<p class="nota" style="margin:0 0 12px"><b>${n} ${n === 1 ? "item" : "itens"}</b> vão juntos, com horário, local e link para os detalhes.</p>
+  const dica = alvo === "minha" ? "" : `<p class="nota" style="margin:0 0 12px">Dica: para o evento inteiro, <button class="link" data-exp="assinar">assinar o calendário</button> é melhor, porque as mudanças da programação chegam sozinhas.</p>`;
+  $("#exp-body").innerHTML = seletor + dica + `<p class="nota" style="margin:0 0 12px"><b>${n} ${n === 1 ? "item" : "itens"}</b> vão juntos, com horário, local e link para os detalhes.</p>
     <div class="exp-opcoes">
       <div class="exp-op"><b>Google Agenda</b><p>Baixa o arquivo e abre a tela de importar do Google: escolha o arquivo baixado e clique em Importar.</p><button class="btn cheio" data-exp="google">Exportar para o Google</button></div>
       <div class="exp-op"><b>iPhone, iPad e Mac</b><p>Baixa o arquivo; o Calendário abre e você toca em "Adicionar tudo".</p><button class="btn cheio" data-exp="apple">Exportar para a Apple</button></div>
@@ -833,36 +861,38 @@ function exportar() {
     </div>
     <p class="nota">No celular Android, o app do Google Agenda não importa arquivo. Dá para adicionar direto no Google, um item por toque:</p>
     <div class="acoes" style="margin-top:8px"><button class="btn" data-exp="passo">${passoGoogle < n ? `Abrir no Google: ${passoGoogle + 1} de ${n}` : "Pronto! Recomeçar"}</button></div>
-    ${passoGoogle < n ? `<p class="nota" style="margin-top:6px">Próximo: ${esc(lista[passoGoogle].titulo)}</p>` : ""}
-    <h4 style="margin:18px 0 4px;font-size:15px">Ajustar a seleção</h4>${atalhos()}`;
+    ${passoGoogle < n ? `<p class="nota" style="margin-top:6px">Próximo: ${esc(lista[passoGoogle].titulo)}</p>` : ""}`;
 }
-function abreExportar() { passoGoogle = 0; exportar(); $("#dlg-exportar").showModal(); }
+function abreExportar(a) { alvo = a || (favs.size ? "minha" : "tudo"); passoGoogle = 0; exportar(); $("#dlg-exportar").showModal(); }
 $("#exp-body").addEventListener("click", e => {
+  const a = e.target.closest("[data-alvo]");
+  if (a) { alvo = a.dataset.alvo; passoGoogle = 0; exportar(); return; }
   const b = e.target.closest("[data-exp]"); if (!b) return;
-  const lista = listaFavs(), tipo = b.dataset.exp;
+  const lista = listaAlvo(), tipo = b.dataset.exp;
+  if (tipo === "assinar") { $("#dlg-exportar").close(); $("#dlg-assinar").showModal(); return; }
   if (tipo === "passo") {
     if (passoGoogle >= lista.length) passoGoogle = 0;
     else { window.open(googleUrl(lista[passoGoogle]), "_blank", "noopener"); passoGoogle++; }
     exportar(); return;
   }
-  baixa("minha-agenda-lacigf-2026.ics", ics(lista, "Minha agenda LACIGF 2026"));
+  baixa(ALVOS[alvo][2], ics(lista, ALVOS[alvo][0] + " · LACIGF 2026"));
   if (tipo === "google") window.open("https://calendar.google.com/calendar/r/settings/export", "_blank", "noopener");
   if (tipo === "outlook") window.open("https://outlook.live.com/calendar/", "_blank", "noopener");
   b.textContent = "Arquivo baixado ✓";
 });
-$("#abrir-exportar").onclick = abreExportar;
+$("#abrir-exportar").onclick = () => abreExportar();
 
 // Minha agenda
 const contaFavs = () => {
   $("#fav-n").textContent = favs.size;
   const b = $("#abrir-exportar");
-  b.hidden = !favs.size;
+  b.hidden = false;
   b.innerHTML = `${ICON.cal}Exportar<span class="so-desk"> todas</span>`;
 };
 function minhaAgenda() {
   const lista = listaFavs();
   if (!lista.length) {
-    $("#minha-body").innerHTML = `<p style="margin-top:0">Sua agenda ainda está vazia. Toque no ${'<span style="color:var(--red)">♥</span>'} das sessões que quer ver, ou use um atalho:</p>${atalhos()}`;
+    $("#minha-body").innerHTML = `<p style="margin-top:0">Sua agenda ainda está vazia. Toque no ${'<span style="color:var(--red)">♥</span>'} das sessões que quer ver e elas aparecem aqui, em ordem, com aviso de choque de horário.</p>${restaurarHtml()}`;
     return;
   }
   let fimAnt = null;
@@ -873,7 +903,7 @@ function minhaAgenda() {
       <div><a href="#${it.id}" data-fechar>${esc(it.titulo)}</a><br><span class="muted">${it.ev === "lacigf" ? "LACIGF 19" : "Youth LACIGF"}${it.sala ? " · Sala " + it.sala : ""}</span>${conflito ? '<br><span class="conf">choca com a anterior</span>' : ""}</div>
       <div class="acts"><a class="ic" href="${esc(googleUrl(it))}" target="_blank" rel="noopener" aria-label="Google Agenda" title="Google Agenda">${ICON.cal}</a><button class="ic fav" data-fav="${it.id}" aria-pressed="true" aria-label="Tirar da minha agenda">${ICON.coracao}</button></div></div>`;
   }).join("");
-  $("#minha-body").innerHTML = `<div class="acoes" style="margin-bottom:10px"><button class="btn laranja" data-abrir-exportar>${ICON.cal}Exportar todas (${lista.length}) para o calendário</button></div>${atalhos()}${linhas}`;
+  $("#minha-body").innerHTML = `<div class="acoes" style="margin-bottom:10px"><button class="btn laranja" data-abrir-exportar>${ICON.cal}Exportar minha agenda (${lista.length})</button></div>${restaurarHtml()}${linhas}`;
 }
 $("#abrir-minha").onclick = () => { minhaAgenda(); $("#dlg-minha").showModal(); };
 document.querySelectorAll("dialog").forEach(d => d.addEventListener("click", e => {
