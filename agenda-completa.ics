@@ -1,0 +1,812 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Guia nao oficial//Agenda LACIGF 2026//PT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LACIGF 2026 (LACIGF 19 + Youth)
+X-WR-TIMEZONE:America/Fortaleza
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:la@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261105T120000Z
+DTEND:20261105T124500Z
+SUMMARY:LACIGF · Abertura do 19º LACIGF
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Portão E)\, Av.
+  Washington Soares 999\, Fortaleza - CE
+DESCRIPTION:Ato cultural da Associação Cultural Terra da Luz e boas-vind
+ as do Comitê Multissetorial (CMPI)\, do governo local e das organizaçõ
+ es anfitriãs.\n\nDetalhes: https://giovanavilhena.github.io/agenda-lacig
+ f-2026/#la
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#la
+END:VEVENT
+BEGIN:VEVENT
+UID:lp1@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261105T124500Z
+DTEND:20261105T141500Z
+SUMMARY:LACIGF · Inteligência artificial na América Latina
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Portão E)\, Av.
+  Washington Soares 999\, Fortaleza - CE · Sala 1
+DESCRIPTION:Detalhes: https://giovanavilhena.github.io/agenda-lacigf-2026/
+ #lp1
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#lp1
+END:VEVENT
+BEGIN:VEVENT
+UID:l14640@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261105T144500Z
+DTEND:20261105T160000Z
+SUMMARY:LACIGF · Nossos dados estão seguros? Como eles circulam?
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Portão E)\, Av.
+  Washington Soares 999\, Fortaleza - CE · Sala 1
+DESCRIPTION:Segurança do roteamento: o que acontece quando o tráfego tom
+ a rotas inesperadas e como o RPKI ajuda a validar rotas.\n\nFormato: Pain
+ el\n\nMesa: Paula Oteguy (LACNIC)\; Daniel Fink (ICANN)\; Basilio Rodrigu
+ ez Perez (LAC-ISP)\; Edsel García (Universidad Tecnológica de Panamá)\
+ ; Carmen Denis Polanco (LAC Digital Academy)\; Kevon Swift (Internet Soci
+ ety Trinidad and Tobago Chapter)\; Alan Ramírez García (LACNIC)\; Gina 
+ Francini (LACNIC)\n\nTítulo original: ¿Están seguros nuestros datos?¿
+ Cómo circulan?\n\nDetalhes: https://giovanavilhena.github.io/agenda-laci
+ gf-2026/#l14640
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#l14640
+END:VEVENT
+BEGIN:VEVENT
+UID:l14158@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261105T144500Z
+DTEND:20261105T160000Z
+SUMMARY:LACIGF · Avançando em direitos: enfrentamento às violências de
+  gênero e suas interseções na América Latina
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Portão E)\, Av.
+  Washington Soares 999\, Fortaleza - CE · Sala 2
+DESCRIPTION:Estratégias multissetoriais contra violência de gênero on-l
+ ine (machosfera\, deepfakes)\, com foco em Brasil e Paraguai.\n\nFormato:
+  Painel\n\nMesa: Beatriz Barbosa (Comité Gestor de la Internet en Brasil
+  (CGI.br))\; Marina Meira (Derechos Digitales)\; Sandra Avila (UNICAMP)\;
+  Marina Pita (SECOM - Brasil)\; Maricel Achucarro (TEDIC)\; Mariana Soare
+ s (Información no disponible)\; Ramon Silva Costa (NIC.br/CGI.br)\n\nTí
+ tulo original: Avanzando en derechos – enfrentamiento a las violencias 
+ de género e sus intersecciones en LATAM\n\nDetalhes: https://giovanavilh
+ ena.github.io/agenda-lacigf-2026/#l14158
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#l14158
+END:VEVENT
+BEGIN:VEVENT
+UID:l14735@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261105T144500Z
+DTEND:20261105T160000Z
+SUMMARY:LACIGF · IA na justiça e no setor público: salvaguardas regiona
+ is de transparência\, avaliação de impacto e reparação
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Portão E)\, Av.
+  Washington Soares 999\, Fortaleza - CE · Sala 3
+DESCRIPTION:Oficina que monta um checklist regional de salvaguardas mínim
+ as para IA em tribunais\, segurança pública e políticas públicas.\n\n
+ Formato: Oficina prática\n\nMesa: LINA PAOLA DIAZ CASTAÑEDA (Secretaria
+  Distrital de Desarrollo Económico Bogotá Distrito Capital de Colombia)
+ \; Geraldina Chávez Lozano (Tsuru Abogados)\; MILAGROS DAYSI CUEVA TADEO
+  (Organismo Supervisor de Inversión Privada en Telecomunicaciones - OSIP
+ TEL)\; Fátima Toche (IALAW)\; Albert Jair Páez Lobo (Ministerio de Tecn
+ ologías de la Información y Comunicaciones de Colombia)\; LAURA NATHALI
+ E HERNÁNDEZ RIVERA (HNL Tech Law)\n\nTítulo original: IA en justicia y 
+ sector público: salvaguardas regionales para la transparencia\, evaluaci
+ ón de impacto y reparación en América Latina y el Caribe\n\nDetalhes: 
+ https://giovanavilhena.github.io/agenda-lacigf-2026/#l14735
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#l14735
+END:VEVENT
+BEGIN:VEVENT
+UID:lp2@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261105T171500Z
+DTEND:20261105T184500Z
+SUMMARY:LACIGF · Resiliência\, cibersegurança e infraestrutura da inter
+ net
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Portão E)\, Av.
+  Washington Soares 999\, Fortaleza - CE · Sala 1
+DESCRIPTION:Detalhes: https://giovanavilhena.github.io/agenda-lacigf-2026/
+ #lp2
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#lp2
+END:VEVENT
+BEGIN:VEVENT
+UID:l14858@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261105T190000Z
+DTEND:20261105T200000Z
+SUMMARY:LACIGF · O que não se nomeia não se conhece: incidentes de cibe
+ rsegurança\, transparência e agenda pública
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Portão E)\, Av.
+  Washington Soares 999\, Fortaleza - CE · Sala 1
+DESCRIPTION:Por que incidentes de cibersegurança não são notificados na
+  região\; parte de uma base de incidentes argentinos feita pela sociedad
+ e civil.\n\nFormato: Painel\n\nMesa: Heidy Balanta (Escuela de Privacidad
+ )\; Marcela Pallero (Universidad Tecnológica Nacional (UTN) de Argentina
+ )\; Juan Carlos Lara (Derechos Digitales)\; Paula Szewach (Barcelona Supe
+ rcomputing Center (BSC))\; Maria Trevisani Vespa (independiente)\; Jessic
+ a Matus (Independiente)\; Facundo Carlos Ureta (Independiente)\; Laura Ta
+ rbuch (Independiente)\n\nTítulo original: Lo que no se nombra no se cono
+ ce: incidentes de ciberseguridad\, transparencia y agenda pública en Am
+ érica Latina\n\nDetalhes: https://giovanavilhena.github.io/agenda-lacigf
+ -2026/#l14858
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#l14858
+END:VEVENT
+BEGIN:VEVENT
+UID:l13735@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261105T190000Z
+DTEND:20261105T200000Z
+SUMMARY:LACIGF · Perspectivas amefricanas para o enfrentamento ao colonia
+ lismo digital
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Portão E)\, Av.
+  Washington Soares 999\, Fortaleza - CE · Sala 2
+DESCRIPTION:Mineração\, data centers e consumo de água em territórios 
+ racializados\; resistências e soberania tecnológica popular.\n\nFormato
+ : Painel\n\nMesa: Paulo Victor Purificação Melo (UFRB)\; Fiorella Ferra
+ ri (Hiperderecho)\; Nathalie Cook (AfroLeaders)\; Rudy Amanda Hurtado Gar
+ cés (Colectiva de investigadoras negras y populares - Colombia)\; Tarciz
+ io Silva (Desvelar)\; Pamela Layla (IARAA)\; Juliane Cintra (Desvelar)\; 
+ Nirvana Lima (Universidade Federal do Ceará (UFC))\n\nTítulo original: 
+ Perspectivas amefricanas para enfrentamento ao Colonialismo Digital\n\nDe
+ talhes: https://giovanavilhena.github.io/agenda-lacigf-2026/#l13735
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#l13735
+END:VEVENT
+BEGIN:VEVENT
+UID:l14448@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261105T190000Z
+DTEND:20261105T200000Z
+SUMMARY:LACIGF · A internet agrava a crise climática ou ajuda a enfrent
+ á-la pela participação cidadã?
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Portão E)\, Av.
+  Washington Soares 999\, Fortaleza - CE · Sala 3
+DESCRIPTION:Bordado coletivo para discutir o impacto ambiental da internet
+  e seu papel na ação climática\, com vozes indígenas e de mulheres.\n
+ \nFormato: Mediação artística\n\nMesa: Kery Gomez (Fundación Oxlajuj 
+ Noj)\; Hermelinda Velásquez (Fundación Oxlajuj Noj)\; Belinda Cha (Fund
+ ación Oxlajuj Noj)\; Summer Prera (Fundación Oxlajuj Noj)\; Lourdes Ló
+ pez (Fundacion Oxlajuj Noj)\n\nTítulo original: ¿Internet agrava la cri
+ sis climática o ayuda a enfrentarla desde la participación ciudadana?\n
+ \nDetalhes: https://giovanavilhena.github.io/agenda-lacigf-2026/#l14448
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#l14448
+END:VEVENT
+BEGIN:VEVENT
+UID:l14815@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261105T200000Z
+DTEND:20261105T210000Z
+SUMMARY:LACIGF · Jardins sem muros: interoperabilidade\, código aberto e
+  regulação econômica das big techs
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Portão E)\, Av.
+  Washington Soares 999\, Fortaleza - CE · Sala 1
+DESCRIPTION:Concentração de poder das grandes plataformas\; interoperabi
+ lidade\, Fediverso e código aberto como caminho regulatório.\n\nFormato
+ : Painel\n\nMesa: Luis Filipe Ferreira de Oliveira (Artículo 19 Brasil y
+  Sudamérica)\; Luana Barbosa (Pajubá Tech)\; Bruno Carballa Smichowski 
+ (Joint Research Centre (European Commission))\; María Juliana Soto (Univ
+ ersidad Icesi)\; Marina Fernandes (Ministério da Justiça e Segurança P
+ ública do Brasil)\; Pedro Isaac Alcala (Nader\, Hayaux & Goebel)\; Thay 
+ Graciano (Stanford University)\; Joyce Ricarte (Artigo 19)\n\nTítulo ori
+ ginal: Jardines sin muros: interoperabilidad\, código abierto y regulaci
+ ón económica de gigantes tecnológicos\n\nDetalhes: https://giovanavilh
+ ena.github.io/agenda-lacigf-2026/#l14815
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#l14815
+END:VEVENT
+BEGIN:VEVENT
+UID:l15148@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261105T200000Z
+DTEND:20261105T210000Z
+SUMMARY:LACIGF · Algoritmos com perspectiva social: inclusão\, dados e g
+ ênero nos ecossistemas tecnológicos
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Portão E)\, Av.
+  Washington Soares 999\, Fortaleza - CE · Sala 2
+DESCRIPTION:Regulação de IA\, vieses algorítmicos e falta de dados repr
+ esentativos\, com casos de Brasil\, Colômbia\, México e Guatemala.\n\nF
+ ormato: Painel\n\nMesa: German López Ardila (Cámara Colombiana de Infor
+ mática y Telecomunicaciones)\; Lourdes Ramirez Cerna (Universidad de Lim
+ a)\; Ivete Sánchez Bravo (Centro de Investigación en Matemáticas)\; En
+ ya Carolina Silva da Costa (Fundação Getulio Vargas)\; Mayra Alejandra 
+ Martínez Ralón (Inacif)\; Melissa Robles (Quantil)\; Francisco Cavalcan
+ te (Legal Fronts Institute)\n\nTítulo original: Algoritmos con perspecti
+ va social: Inclusión\, datos y género en ecosistemas tecnológicos de L
+ ATAM\n\nDetalhes: https://giovanavilhena.github.io/agenda-lacigf-2026/#l1
+ 5148
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#l15148
+END:VEVENT
+BEGIN:VEVENT
+UID:l15147@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261105T200000Z
+DTEND:20261105T210000Z
+SUMMARY:LACIGF · Roleta regulatória: apostando no futuro da governança 
+ das bets na América Latina e no Caribe
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Portão E)\, Av.
+  Washington Soares 999\, Fortaleza - CE · Sala 3
+DESCRIPTION:Jogo em grupos que simulam perfis regulatórios reais: publici
+ dade\, infância\, saúde mental\, mercado ilegal e tributação das apos
+ tas.\n\nFormato: Jogo / dinâmica\n\nMesa: Lía Rosaura Rodríguez Gamarr
+ a (Facultad de Ciencias Sociales\, Universidad Nacional de Asunción)\; A
+ lithu Bazan Talavera (Hiperderecho)\; Alejandro Carlos Baltazar Ruiz (INF
+ OTEC/CETAIS (Centro de Estudios Tecnológicos de Alto Impacto Social))\; 
+ Jeiel de Santana Barbosa (Laboratório de Inovação e Direitos Digitais 
+ da UFBA)\; Gustavo de Oliveira Ferreira (UFBA)\; Cecilia Veloso (LABIDD U
+ FBA)\n\nTítulo original: Ruleta Regulatoria: apostando por el futuro de 
+ la gobernanza de las apuestas en línea en América Latina y el Caribe\n\
+ nDetalhes: https://giovanavilhena.github.io/agenda-lacigf-2026/#l15147
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#l15147
+END:VEVENT
+BEGIN:VEVENT
+UID:l14462@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261105T210000Z
+DTEND:20261105T220000Z
+SUMMARY:LACIGF · Corpo não encontrado
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Portão E)\, Av.
+  Washington Soares 999\, Fortaleza - CE · Sala 3
+DESCRIPTION:Performance de live coding com webcam que transforma corpos em
+  dados para expor o modelo de vigilância das plataformas.\n\nFormato: Me
+ diação artística\n\nMesa: Carlos Alberto Martinez Martinez (Cooperativ
+ a Tierra Común / Guardian Project)\; Cielito Saravia (Independiente)\; E
+ speranza Eyzaguirre (Independiente)\n\nTítulo original: Cuerpo no encont
+ rado\n\nDetalhes: https://giovanavilhena.github.io/agenda-lacigf-2026/#l1
+ 4462
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#l14462
+END:VEVENT
+BEGIN:VEVENT
+UID:lp3@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261106T120000Z
+DTEND:20261106T133000Z
+SUMMARY:LACIGF · Proibir não é proteger: debates legislativos sobre inf
+ âncias e adolescências on-line na América Latina
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Portão E)\, Av.
+  Washington Soares 999\, Fortaleza - CE · Sala 1
+DESCRIPTION:Detalhes: https://giovanavilhena.github.io/agenda-lacigf-2026/
+ #lp3
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#lp3
+END:VEVENT
+BEGIN:VEVENT
+UID:l13685@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261106T134500Z
+DTEND:20261106T150000Z
+SUMMARY:LACIGF · Aceitação universal: existe conectividade significativ
+ a se domínios e e-mails não funcionam para todos?
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Portão E)\, Av.
+  Washington Soares 999\, Fortaleza - CE · Sala 1
+DESCRIPTION:Domínios e e-mails em idiomas locais (guarani\, acentos do po
+ rtuguês) que sistemas recusam\; iniciativa da ICANN e da ALETI.\n\nForma
+ to: Painel\n\nMesa: Raúl Echeberría (Asociación Latinoamericana de Int
+ ernet - ALAI)\; Eunice Alejandra Pérez Coello (Instituto Tecnológico de
+  Mérida)\; Roberto C. Mayer (ALETI and ASSESPRO)\; Rossana Bogado (Secre
+ taría de Políticas Lingüísticas)\; Martha Fretes Carvallo (NIC.py)\; 
+ Cristiana Camarate (Anatel)\; Rodolfo da Silva Avelino (Insper / Coletivo
+  Digital)\; Rafael Radke (UNESCO)\; Daniel Fink (ICANN)\n\nTítulo origin
+ al: Aceptación Universal: ¿Puede existir la conectividad significativa 
+ si los nombres de dominio y las direcciones de correo electrónico no fun
+ cionan para todas las personas?\n\nDetalhes: https://giovanavilhena.githu
+ b.io/agenda-lacigf-2026/#l13685
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#l13685
+END:VEVENT
+BEGIN:VEVENT
+UID:l14600@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261106T134500Z
+DTEND:20261106T150000Z
+SUMMARY:LACIGF · Quando a proteção de dados vira obstáculo: acesso à 
+ informação pública e IA na América Latina
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Portão E)\, Av.
+  Washington Soares 999\, Fortaleza - CE · Sala 2
+DESCRIPTION:Tensão entre transparência e proteção de dados no Estado d
+ igital e no uso de IA\; estudo comparado de oito países.\n\nFormato: Pai
+ nel\n\nMesa: Cecilia Galvan (Civic Compass)\; Renato Berrino (Open Data C
+ harter)\; João Sergio dos Santos Soares Pereira (Tribunal de Justiça do
+  Estado do Rio de Janeiro)\; Juan David Gutierrez (Universidad de los And
+ es)\; Patricia Diaz Rubio (Wikimedia Chile)\; Matias Arona (Civic Compass
+ )\; Maricel (Civic House)\n\nTítulo original: Cuando la protección de d
+ atos se vuelve un desafío: acceso a la información pública e inteligen
+ cia artificial en América Latina\n\nDetalhes: https://giovanavilhena.git
+ hub.io/agenda-lacigf-2026/#l14600
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#l14600
+END:VEVENT
+BEGIN:VEVENT
+UID:l14334@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261106T134500Z
+DTEND:20261106T150000Z
+SUMMARY:LACIGF · A internet cuir/queer que queremos
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Portão E)\, Av.
+  Washington Soares 999\, Fortaleza - CE · Sala 3
+DESCRIPTION:Laboratório sobre infraestrutura\, dados\, identidade e plata
+ formas sob a ótica de pessoas LGBTIQ+ na região.\n\nFormato: Grupos de 
+ trabalho\n\nMesa: Luís Henrique Ribeiro Lima (Assembleia Legislativa de 
+ Goiás)\; Alithu Bazan Talavera (Hiperderecho)\; Denise Leal (Instituto D
+ ata Goyá)\; Abdias Zambrano (ISOC Panamá)\; Itzel Cabrera (Barracón Di
+ gital)\; Umut Pajaro Velasquez (Internet Society Colombia Chapter)\n\nTí
+ tulo original: El internet cuir/queer que queremos\n\nDetalhes: https://g
+ iovanavilhena.github.io/agenda-lacigf-2026/#l14334
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#l14334
+END:VEVENT
+BEGIN:VEVENT
+UID:l15319@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261106T150000Z
+DTEND:20261106T160000Z
+SUMMARY:LACIGF · O Tratado da ONU sobre Cibercrime: desafios e oportunida
+ des para a América Latina
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Portão E)\, Av.
+  Washington Soares 999\, Fortaleza - CE · Sala 1
+DESCRIPTION:Implicações da convenção da ONU para soberania e direitos 
+ humanos\; comparação entre Brasil\, Bolívia e Peru.\n\nFormato: Painel
+ \n\nMesa: Cecilia Veloso (LABIDD UFBA)\; Nicole Angel Sánchez Rojas (Fed
+ eración Iberoamericana de Asociaciones de Derecho e Informática (FIADI)
+ )\; Ximena Cuzcano (Derechos Digitales)\; Jesus L. Vivanco-Enriquez (Pont
+ ificia Universidad Católica del Peru)\; Ivo Peixinho (Polícia Federal d
+ o Brasil)\; Jeiel de Santana Barbosa (Laboratório de Inovação e Direit
+ os Digitais da UFBA)\; Gustavo de Oliveira Ferreira (UFBA)\n\nTítulo ori
+ ginal: El Tratado de la ONU sobre Cibercrimen y los desafíos y oportunid
+ ades en América Latina\n\nDetalhes: https://giovanavilhena.github.io/age
+ nda-lacigf-2026/#l15319
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#l15319
+END:VEVENT
+BEGIN:VEVENT
+UID:l15238@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261106T150000Z
+DTEND:20261106T151500Z
+SUMMARY:LACIGF · Melhoria regulatória e inovação: bases para o desenvo
+ lvimento digital convergente
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Portão E)\, Av.
+  Washington Soares 999\, Fortaleza - CE · Sala 2
+DESCRIPTION:Fala de 15 min sobre simplificação regulatória para destrav
+ ar investimento em infraestrutura digital (estudo do cet.la).\n\nFormato:
+  Fala-relâmpago (15 min)\n\nMesa: Pablo García de Castro (ASIET)\; Marc
+ elo Celani (Investigador y docente Universidad Di Tella)\; Rocío Pimente
+ l (ASIET)\; Luis Mauricio Torres (cet.la)\n\nTítulo original: Mejora reg
+ ulatoria e innovación: bases para el desarrollo digital convergente\n\nD
+ etalhes: https://giovanavilhena.github.io/agenda-lacigf-2026/#l15238
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#l15238
+END:VEVENT
+BEGIN:VEVENT
+UID:l16540@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261106T151500Z
+DTEND:20261106T160000Z
+SUMMARY:LACIGF · Lançamento de pesquisa: infâncias e ambientes digitais
+ \, tendências regulatórias na América Latina
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Portão E)\, Av.
+  Washington Soares 999\, Fortaleza - CE · Sala 2
+DESCRIPTION:Riscos on-line para crianças e adolescentes e as regulações
+  em curso na região\, sem importar soluções prontas.\n\nFormato: Mesa-
+ redonda\n\nTítulo original: Lanzamiento de la investigación: Infancias 
+ y entornos digitales: tendencias regulatorias en América Latina\n\nDetal
+ hes: https://giovanavilhena.github.io/agenda-lacigf-2026/#l16540
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#l16540
+END:VEVENT
+BEGIN:VEVENT
+UID:l14226@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261106T150000Z
+DTEND:20261106T160000Z
+SUMMARY:LACIGF · Quando votar não basta: exclusão\, integridade eleitor
+ al e resistência político-eleitoral na era digital
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Portão E)\, Av.
+  Washington Soares 999\, Fortaleza - CE · Sala 3
+DESCRIPTION:Violência política on-line\, desinformação e moderação d
+ e conteúdo contra grupos excluídos\; Argentina\, Brasil e Peru.\n\nForm
+ ato: Painel\n\nMesa: Francisco Cavalcante (Legal Fronts Institute)\; Mari
+ ón Briancesco (ProBox)\; Sara Fratti (ILDA - Iniciativa Latinoamericana 
+ por los Datos Abiertos)\; Alithu Bazan Talavera (Hiperderecho)\; Mari Lac
+ erda (Câmara Municipal de Fortaleza)\; candela Gonzalez (Gobierno de la 
+ Provincia de Córdoba)\; Silvia María Calderón López (Consultora indep
+ endiente)\; Alejandro Carlos Baltazar Ruiz (INFOTEC/CETAIS (Centro de Est
+ udios Tecnológicos de Alto Impacto Social))\n\nTítulo original: Cuando 
+ votar no basta: exclusión\, integridad electoral y resistencia política
+ -electoral en la era digital\n\nDetalhes: https://giovanavilhena.github.i
+ o/agenda-lacigf-2026/#l14226
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#l14226
+END:VEVENT
+BEGIN:VEVENT
+UID:l13768@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261106T171500Z
+DTEND:20261106T183000Z
+SUMMARY:LACIGF · Comunicação resiliente como infraestrutura crítica di
+ ante da emergência climática
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Portão E)\, Av.
+  Washington Soares 999\, Fortaleza - CE · Sala 1
+DESCRIPTION:Quem consegue pedir socorro quando as redes caem num desastre 
+ climático\; comunicação como infraestrutura de defesa civil.\n\nFormat
+ o: Painel\n\nMesa: Bruna Hercog (Instituto Nupef)\; Zeilane Fernandes Con
+ ceição (Instituto Nupef)\; Pilar Saenz (ISUR)\; Paola Ricaurte Quijano 
+ (Tecnológico de Monterrey)\; Julia Wolff (Información no disponible)\; 
+ Pedro Camera (Coprel Telecom)\; Milena Cramar Lôndero (Instituto Referê
+ ncia Internet e Sociedade (IRIS))\; Vitória Santos (Nupef)\n\nTítulo or
+ iginal: Comunicación resiliente como infraestructura crítica frente a l
+ a emergencia climática\n\nDetalhes: https://giovanavilhena.github.io/age
+ nda-lacigf-2026/#l13768
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#l13768
+END:VEVENT
+BEGIN:VEVENT
+UID:l14155@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261106T171500Z
+DTEND:20261106T183000Z
+SUMMARY:LACIGF · Da internet das pessoas à internet das coisas: a govern
+ ança da IoT na América Latina
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Portão E)\, Av.
+  Washington Soares 999\, Fortaleza - CE · Sala 2
+DESCRIPTION:Usos e regulação da internet das coisas (5G\, M2M\, satélit
+ es de órbita baixa) e cooperação entre cinco países.\n\nFormato: Pain
+ el\n\nMesa: João Araújo Monteiro Neto (Universidade de Fortaleza)\; Olg
+ a Cavalli (Facultad de Defensa Nacional de Argentina)\; Javier More Sanch
+ ez (Universidad de Lima)\; Maryleana Mendez (ASIET)\; Ricardo Campos (Goe
+ the Universität Frankfurt am Main)\; Silvia María Calderón López (Con
+ sultora independiente)\; Francisco Cavalcante (Legal Fronts Institute)\n\
+ nTítulo original: De la Internet de las Personas a la Internet de las Co
+ sas: la gobernanza de la IoT en América Latina\n\nDetalhes: https://giov
+ anavilhena.github.io/agenda-lacigf-2026/#l14155
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#l14155
+END:VEVENT
+BEGIN:VEVENT
+UID:l15076@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261106T171500Z
+DTEND:20261106T183000Z
+SUMMARY:LACIGF · Conectividade comunitária na América Latina e no Carib
+ e: roteiro multissetorial para ambientes favoráveis
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Portão E)\, Av.
+  Washington Soares 999\, Fortaleza - CE · Sala 3
+DESCRIPTION:Grupos de trabalho sobre regulação\, financiamento e governa
+ nça das redes comunitárias de internet.\n\nFormato: Grupos de trabalho\
+ n\nMesa: Adriana Labardini Inzunza (Rhizomatica)\; Julián Casasbuenas G 
+ (Colnodo)\; Christian O&apos\;Flaherty (ISOC)\; Basilio Rodriguez Perez (
+ LAC-ISP)\; Umut Pajaro Velasquez (Internet Society Colombia Chapter)\; Da
+ na Beltrán (Asociación Colnodo)\n\nTítulo original: Construyendo entor
+ nos habilitantes para la conectividad comunitaria en América Latina y el
+  Caribe: una hoja de ruta multiactor para la conectividad significativa\n
+ \nDetalhes: https://giovanavilhena.github.io/agenda-lacigf-2026/#l15076
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#l15076
+END:VEVENT
+BEGIN:VEVENT
+UID:lp4@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261106T190000Z
+DTEND:20261106T203000Z
+SUMMARY:LACIGF · Governança digital na América Latina e no Caribe
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Portão E)\, Av.
+  Washington Soares 999\, Fortaleza - CE · Sala 1
+DESCRIPTION:Detalhes: https://giovanavilhena.github.io/agenda-lacigf-2026/
+ #lp4
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#lp4
+END:VEVENT
+BEGIN:VEVENT
+UID:le@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261106T203000Z
+DTEND:20261106T210000Z
+SUMMARY:LACIGF · Encerramento do 19º LACIGF
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Portão E)\, Av.
+  Washington Soares 999\, Fortaleza - CE
+DESCRIPTION:Palavras de despedida das organizações convocantes.\n\nDetal
+ hes: https://giovanavilhena.github.io/agenda-lacigf-2026/#le
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#le
+END:VEVENT
+BEGIN:VEVENT
+UID:yf@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Youth LACIGF · Festa de abertura do Youth LACIGF
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Horário e local a confirmar\n\nDetalhes: https://giovanavilhe
+ na.github.io/agenda-lacigf-2026/#yf
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#yf
+END:VEVENT
+BEGIN:VEVENT
+UID:ya@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261103T113000Z
+DTEND:20261103T115000Z
+SUMMARY:Youth LACIGF · Abertura oficial do Youth LACIGF
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Título original: Apertura Oficial\n\nDetalhes: https://giovan
+ avilhena.github.io/agenda-lacigf-2026/#ya
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#ya
+END:VEVENT
+BEGIN:VEVENT
+UID:y1@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261103T120000Z
+DTEND:20261103T125000Z
+SUMMARY:Youth LACIGF · Da prática à réplica: laboratório de transfer
+ ência digital comunitária
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Painel / oficina\n\nTítulo original: De la práctica
+  a la réplica: Laboratorio de Transferencia Digital Comunitaria\n\nDetal
+ hes: https://giovanavilhena.github.io/agenda-lacigf-2026/#y1
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y1
+END:VEVENT
+BEGIN:VEVENT
+UID:y2@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261103T130000Z
+DTEND:20261103T134000Z
+SUMMARY:Youth LACIGF · Entender a infraestrutura para incidir nas regras:
+  juventudes na governança técnica da América Latina e do Caribe
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Keynote\n\nTítulo original: Entender la infraestruct
+ ura para incidir en sus reglas: Participación de juventudes en la gobern
+ anza técnica de América Latina y el Caribe\n\nDetalhes: https://giovana
+ vilhena.github.io/agenda-lacigf-2026/#y2
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y2
+END:VEVENT
+BEGIN:VEVENT
+UID:y3@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261103T140000Z
+DTEND:20261103T153000Z
+SUMMARY:Youth LACIGF · Agenda LGBTQIA+ e juventudes latino-americanas e c
+ aribenhas na construção da governança da internet
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Keynote\n\nTítulo original: Agenda LGBTQIA+ y juvent
+ udes latinoamericanas y caribeñas en la construcción de la gobernanza d
+ e Internet\n\nDetalhes: https://giovanavilhena.github.io/agenda-lacigf-20
+ 26/#y3
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y3
+END:VEVENT
+BEGIN:VEVENT
+UID:y4@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261103T163000Z
+DTEND:20261103T170000Z
+SUMMARY:Youth LACIGF · O que acontece quando a IA vira um dos primeiros l
+ ugares onde buscamos respostas sobre corpo\, saúde e direitos?
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Mesa-redonda\n\nTítulo original: ¿Qué pasa cuando 
+ la IA se convierte en uno de los primeros lugares donde buscamos respuest
+ as sobre nuestros cuerpos\, nuestra salud y nuestros derechos?\n\nDetalhe
+ s: https://giovanavilhena.github.io/agenda-lacigf-2026/#y4
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y4
+END:VEVENT
+BEGIN:VEVENT
+UID:y5@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261103T171000Z
+DTEND:20261103T174000Z
+SUMMARY:Youth LACIGF · O que a América Latina pode aprender com o ECA Di
+ gital? Boas práticas para proteger crianças e adolescentes na internet
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Mesa-redonda\n\nTítulo original: ¿Qué puede aprend
+ er América Latina del ECA Digital? Buenas prácticas multisectoriales pa
+ ra la protección de infancias y adolescentes en Internet\n\nDetalhes: ht
+ tps://giovanavilhena.github.io/agenda-lacigf-2026/#y5
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y5
+END:VEVENT
+BEGIN:VEVENT
+UID:y6@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261103T175000Z
+DTEND:20261103T180500Z
+SUMMARY:Youth LACIGF · Plataformas e desafios educativos: infâncias e ju
+ ventudes
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Fala-relâmpago\n\nTítulo original: Plataformas\, re
+ tos y desafíos educativos: Infancias\, niñeces y juventudes\n\nDetalhes
+ : https://giovanavilhena.github.io/agenda-lacigf-2026/#y6
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y6
+END:VEVENT
+BEGIN:VEVENT
+UID:y7@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261103T180500Z
+DTEND:20261103T182000Z
+SUMMARY:Youth LACIGF · Entre o fuzil e o wi-fi: recrutamento forçado de 
+ crianças e jovens pelas redes sociais em Putumayo\, Colômbia
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Fala-relâmpago\n\nTítulo original: Entre el fusil y
+  el wifi: reclutamiento forzado a través de redes sociales de niños\, n
+ iñas\, adolescentes y jóvenes en Putumayo\, Colombia\n\nDetalhes: https
+ ://giovanavilhena.github.io/agenda-lacigf-2026/#y7
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y7
+END:VEVENT
+BEGIN:VEVENT
+UID:y8@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261103T183000Z
+DTEND:20261103T184500Z
+SUMMARY:Youth LACIGF · Fala-relâmpago (tema a definir)
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Fala-relâmpago\n\nTítulo original: Charla Rápida\n
+ \nDetalhes: https://giovanavilhena.github.io/agenda-lacigf-2026/#y8
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y8
+END:VEVENT
+BEGIN:VEVENT
+UID:y9@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261103T184500Z
+DTEND:20261103T190000Z
+SUMMARY:Youth LACIGF · Fala-relâmpago (tema a definir)
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Fala-relâmpago\n\nTítulo original: Charla Rápida\n
+ \nDetalhes: https://giovanavilhena.github.io/agenda-lacigf-2026/#y9
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y9
+END:VEVENT
+BEGIN:VEVENT
+UID:y10@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261103T192000Z
+DTEND:20261103T200000Z
+SUMMARY:Youth LACIGF · Oportunidades para juventudes na governança da in
+ ternet
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Keynote\n\nTítulo original: Oportunidades para juven
+ tudes en la GI\n\nDetalhes: https://giovanavilhena.github.io/agenda-lacig
+ f-2026/#y10
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y10
+END:VEVENT
+BEGIN:VEVENT
+UID:y11@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261104T113000Z
+DTEND:20261104T122000Z
+SUMMARY:Youth LACIGF · Soberania de dados indígenas diante da era do ext
+ rativismo da IA
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Painel / oficina\n\nTítulo original: Soberanía de d
+ atos indígenas frente a la era del extractivismo de la IA\n\nDetalhes: h
+ ttps://giovanavilhena.github.io/agenda-lacigf-2026/#y11
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y11
+END:VEVENT
+BEGIN:VEVENT
+UID:y12@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261104T123000Z
+DTEND:20261104T131000Z
+SUMMARY:Youth LACIGF · Quem pode decidir onde se instalam os data centers
+ ? Impactos da infraestrutura de IA sobre os recursos naturais
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Keynote\n\nTítulo original: ¿Quién puede decidir d
+ ónde se instalan los centros de datos? Impactos de la infraestructura de
+  IA sobre los recursos naturales en América Latina\n\nDetalhes: https://
+ giovanavilhena.github.io/agenda-lacigf-2026/#y12
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y12
+END:VEVENT
+BEGIN:VEVENT
+UID:y13@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261104T140000Z
+DTEND:20261104T153000Z
+SUMMARY:Youth LACIGF · Contextos eleitorais e governança da internet: vi
+ gilância\, dependência de plataformas e democracia
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Keynote\n\nTítulo original: Contextos Electorales en
+  LAC y la GI: Vigilancia y dependencia de plataformas corporativas y sus 
+ implicaciones en la democracia\n\nDetalhes: https://giovanavilhena.github
+ .io/agenda-lacigf-2026/#y13
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y13
+END:VEVENT
+BEGIN:VEVENT
+UID:y14@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261104T163000Z
+DTEND:20261104T170000Z
+SUMMARY:Youth LACIGF · Democracia sequestrada: o cerco algorítmico à vo
+ ntade juvenil e à imprensa na América Latina
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Mesa-redonda\n\nTítulo original: Democracia secuestr
+ ada: El asedio algorítmico a la voluntad juvenil y a la prensa en Améri
+ ca Latina\n\nDetalhes: https://giovanavilhena.github.io/agenda-lacigf-202
+ 6/#y14
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y14
+END:VEVENT
+BEGIN:VEVENT
+UID:y15@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261104T171000Z
+DTEND:20261104T172500Z
+SUMMARY:Youth LACIGF · Na mira 2: um panorama das ameaças digitais na Am
+ érica Latina
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Fala-relâmpago\n\nTítulo original: En la mira 2: Un
+  panorama de las amenazas digitales en América Latina\n\nDetalhes: https
+ ://giovanavilhena.github.io/agenda-lacigf-2026/#y15
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y15
+END:VEVENT
+BEGIN:VEVENT
+UID:y16@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261104T173000Z
+DTEND:20261104T174500Z
+SUMMARY:Youth LACIGF · Fala-relâmpago (tema a definir)
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Fala-relâmpago\n\nTítulo original: Charla Rapida\n\
+ nDetalhes: https://giovanavilhena.github.io/agenda-lacigf-2026/#y16
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y16
+END:VEVENT
+BEGIN:VEVENT
+UID:y17@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261104T175500Z
+DTEND:20261104T181000Z
+SUMMARY:Youth LACIGF · Da solidão à radicalização política: o que ac
+ ontece com os rapazes jovens na internet?
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Fala-relâmpago\n\nTítulo original: De la soledad a 
+ la radicalización política\, ¿qué les pasa a los varones jóvenes en 
+ internet?\n\nDetalhes: https://giovanavilhena.github.io/agenda-lacigf-202
+ 6/#y17
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y17
+END:VEVENT
+BEGIN:VEVENT
+UID:y18@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261104T181500Z
+DTEND:20261104T183000Z
+SUMMARY:Youth LACIGF · Desigualdade\, direitos humanos\, pobreza e direit
+ o à tecnologia
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Fala-relâmpago\n\nTítulo original: Desigualdade\, D
+ ireitos Humanos\, Pobreza\, Direito à Tecnologia\n\nDetalhes: https://gi
+ ovanavilhena.github.io/agenda-lacigf-2026/#y18
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y18
+END:VEVENT
+BEGIN:VEVENT
+UID:y19@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261104T184000Z
+DTEND:20261104T191000Z
+SUMMARY:Youth LACIGF · Agentes de IA e cibersegurança: defendendo o futu
+ ro digital da América Latina e do Caribe
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Mesa-redonda\n\nTítulo original: Agentes de IA y Cib
+ erseguridad: Defendiendo el futuro digital de América Latina y el Caribe
+ \n\nDetalhes: https://giovanavilhena.github.io/agenda-lacigf-2026/#y19
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y19
+END:VEVENT
+BEGIN:VEVENT
+UID:y20@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261104T193000Z
+DTEND:20261104T203000Z
+SUMMARY:Youth LACIGF · Sessão do Youth Track
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Youth Track\n\nTítulo original: Youth Track Session\
+ n\nDetalhes: https://giovanavilhena.github.io/agenda-lacigf-2026/#y20
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y20
+END:VEVENT
+BEGIN:VEVENT
+UID:ye@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261104T203000Z
+DTEND:20261104T210000Z
+SUMMARY:Youth LACIGF · Cerimônia de encerramento do Youth LACIGF
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Título original: Ceremonia de Cierre del evento\n\nDetalhes: 
+ https://giovanavilhena.github.io/agenda-lacigf-2026/#ye
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#ye
+END:VEVENT
+END:VCALENDAR

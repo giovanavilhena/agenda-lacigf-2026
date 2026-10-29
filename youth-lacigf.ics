@@ -1,0 +1,327 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Guia nao oficial//Agenda LACIGF 2026//PT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Youth LACIGF 2026
+X-WR-TIMEZONE:America/Fortaleza
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:yf@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Youth LACIGF · Festa de abertura do Youth LACIGF
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Horário e local a confirmar\n\nDetalhes: https://giovanavilhe
+ na.github.io/agenda-lacigf-2026/#yf
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#yf
+END:VEVENT
+BEGIN:VEVENT
+UID:ya@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261103T113000Z
+DTEND:20261103T115000Z
+SUMMARY:Youth LACIGF · Abertura oficial do Youth LACIGF
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Título original: Apertura Oficial\n\nDetalhes: https://giovan
+ avilhena.github.io/agenda-lacigf-2026/#ya
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#ya
+END:VEVENT
+BEGIN:VEVENT
+UID:y1@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261103T120000Z
+DTEND:20261103T125000Z
+SUMMARY:Youth LACIGF · Da prática à réplica: laboratório de transfer
+ ência digital comunitária
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Painel / oficina\n\nTítulo original: De la práctica
+  a la réplica: Laboratorio de Transferencia Digital Comunitaria\n\nDetal
+ hes: https://giovanavilhena.github.io/agenda-lacigf-2026/#y1
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y1
+END:VEVENT
+BEGIN:VEVENT
+UID:y2@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261103T130000Z
+DTEND:20261103T134000Z
+SUMMARY:Youth LACIGF · Entender a infraestrutura para incidir nas regras:
+  juventudes na governança técnica da América Latina e do Caribe
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Keynote\n\nTítulo original: Entender la infraestruct
+ ura para incidir en sus reglas: Participación de juventudes en la gobern
+ anza técnica de América Latina y el Caribe\n\nDetalhes: https://giovana
+ vilhena.github.io/agenda-lacigf-2026/#y2
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y2
+END:VEVENT
+BEGIN:VEVENT
+UID:y3@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261103T140000Z
+DTEND:20261103T153000Z
+SUMMARY:Youth LACIGF · Agenda LGBTQIA+ e juventudes latino-americanas e c
+ aribenhas na construção da governança da internet
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Keynote\n\nTítulo original: Agenda LGBTQIA+ y juvent
+ udes latinoamericanas y caribeñas en la construcción de la gobernanza d
+ e Internet\n\nDetalhes: https://giovanavilhena.github.io/agenda-lacigf-20
+ 26/#y3
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y3
+END:VEVENT
+BEGIN:VEVENT
+UID:y4@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261103T163000Z
+DTEND:20261103T170000Z
+SUMMARY:Youth LACIGF · O que acontece quando a IA vira um dos primeiros l
+ ugares onde buscamos respostas sobre corpo\, saúde e direitos?
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Mesa-redonda\n\nTítulo original: ¿Qué pasa cuando 
+ la IA se convierte en uno de los primeros lugares donde buscamos respuest
+ as sobre nuestros cuerpos\, nuestra salud y nuestros derechos?\n\nDetalhe
+ s: https://giovanavilhena.github.io/agenda-lacigf-2026/#y4
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y4
+END:VEVENT
+BEGIN:VEVENT
+UID:y5@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261103T171000Z
+DTEND:20261103T174000Z
+SUMMARY:Youth LACIGF · O que a América Latina pode aprender com o ECA Di
+ gital? Boas práticas para proteger crianças e adolescentes na internet
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Mesa-redonda\n\nTítulo original: ¿Qué puede aprend
+ er América Latina del ECA Digital? Buenas prácticas multisectoriales pa
+ ra la protección de infancias y adolescentes en Internet\n\nDetalhes: ht
+ tps://giovanavilhena.github.io/agenda-lacigf-2026/#y5
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y5
+END:VEVENT
+BEGIN:VEVENT
+UID:y6@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261103T175000Z
+DTEND:20261103T180500Z
+SUMMARY:Youth LACIGF · Plataformas e desafios educativos: infâncias e ju
+ ventudes
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Fala-relâmpago\n\nTítulo original: Plataformas\, re
+ tos y desafíos educativos: Infancias\, niñeces y juventudes\n\nDetalhes
+ : https://giovanavilhena.github.io/agenda-lacigf-2026/#y6
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y6
+END:VEVENT
+BEGIN:VEVENT
+UID:y7@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261103T180500Z
+DTEND:20261103T182000Z
+SUMMARY:Youth LACIGF · Entre o fuzil e o wi-fi: recrutamento forçado de 
+ crianças e jovens pelas redes sociais em Putumayo\, Colômbia
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Fala-relâmpago\n\nTítulo original: Entre el fusil y
+  el wifi: reclutamiento forzado a través de redes sociales de niños\, n
+ iñas\, adolescentes y jóvenes en Putumayo\, Colombia\n\nDetalhes: https
+ ://giovanavilhena.github.io/agenda-lacigf-2026/#y7
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y7
+END:VEVENT
+BEGIN:VEVENT
+UID:y8@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261103T183000Z
+DTEND:20261103T184500Z
+SUMMARY:Youth LACIGF · Fala-relâmpago (tema a definir)
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Fala-relâmpago\n\nTítulo original: Charla Rápida\n
+ \nDetalhes: https://giovanavilhena.github.io/agenda-lacigf-2026/#y8
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y8
+END:VEVENT
+BEGIN:VEVENT
+UID:y9@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261103T184500Z
+DTEND:20261103T190000Z
+SUMMARY:Youth LACIGF · Fala-relâmpago (tema a definir)
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Fala-relâmpago\n\nTítulo original: Charla Rápida\n
+ \nDetalhes: https://giovanavilhena.github.io/agenda-lacigf-2026/#y9
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y9
+END:VEVENT
+BEGIN:VEVENT
+UID:y10@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261103T192000Z
+DTEND:20261103T200000Z
+SUMMARY:Youth LACIGF · Oportunidades para juventudes na governança da in
+ ternet
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Keynote\n\nTítulo original: Oportunidades para juven
+ tudes en la GI\n\nDetalhes: https://giovanavilhena.github.io/agenda-lacig
+ f-2026/#y10
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y10
+END:VEVENT
+BEGIN:VEVENT
+UID:y11@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261104T113000Z
+DTEND:20261104T122000Z
+SUMMARY:Youth LACIGF · Soberania de dados indígenas diante da era do ext
+ rativismo da IA
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Painel / oficina\n\nTítulo original: Soberanía de d
+ atos indígenas frente a la era del extractivismo de la IA\n\nDetalhes: h
+ ttps://giovanavilhena.github.io/agenda-lacigf-2026/#y11
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y11
+END:VEVENT
+BEGIN:VEVENT
+UID:y12@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261104T123000Z
+DTEND:20261104T131000Z
+SUMMARY:Youth LACIGF · Quem pode decidir onde se instalam os data centers
+ ? Impactos da infraestrutura de IA sobre os recursos naturais
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Keynote\n\nTítulo original: ¿Quién puede decidir d
+ ónde se instalan los centros de datos? Impactos de la infraestructura de
+  IA sobre los recursos naturales en América Latina\n\nDetalhes: https://
+ giovanavilhena.github.io/agenda-lacigf-2026/#y12
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y12
+END:VEVENT
+BEGIN:VEVENT
+UID:y13@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261104T140000Z
+DTEND:20261104T153000Z
+SUMMARY:Youth LACIGF · Contextos eleitorais e governança da internet: vi
+ gilância\, dependência de plataformas e democracia
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Keynote\n\nTítulo original: Contextos Electorales en
+  LAC y la GI: Vigilancia y dependencia de plataformas corporativas y sus 
+ implicaciones en la democracia\n\nDetalhes: https://giovanavilhena.github
+ .io/agenda-lacigf-2026/#y13
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y13
+END:VEVENT
+BEGIN:VEVENT
+UID:y14@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261104T163000Z
+DTEND:20261104T170000Z
+SUMMARY:Youth LACIGF · Democracia sequestrada: o cerco algorítmico à vo
+ ntade juvenil e à imprensa na América Latina
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Mesa-redonda\n\nTítulo original: Democracia secuestr
+ ada: El asedio algorítmico a la voluntad juvenil y a la prensa en Améri
+ ca Latina\n\nDetalhes: https://giovanavilhena.github.io/agenda-lacigf-202
+ 6/#y14
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y14
+END:VEVENT
+BEGIN:VEVENT
+UID:y15@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261104T171000Z
+DTEND:20261104T172500Z
+SUMMARY:Youth LACIGF · Na mira 2: um panorama das ameaças digitais na Am
+ érica Latina
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Fala-relâmpago\n\nTítulo original: En la mira 2: Un
+  panorama de las amenazas digitales en América Latina\n\nDetalhes: https
+ ://giovanavilhena.github.io/agenda-lacigf-2026/#y15
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y15
+END:VEVENT
+BEGIN:VEVENT
+UID:y16@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261104T173000Z
+DTEND:20261104T174500Z
+SUMMARY:Youth LACIGF · Fala-relâmpago (tema a definir)
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Fala-relâmpago\n\nTítulo original: Charla Rapida\n\
+ nDetalhes: https://giovanavilhena.github.io/agenda-lacigf-2026/#y16
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y16
+END:VEVENT
+BEGIN:VEVENT
+UID:y17@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261104T175500Z
+DTEND:20261104T181000Z
+SUMMARY:Youth LACIGF · Da solidão à radicalização política: o que ac
+ ontece com os rapazes jovens na internet?
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Fala-relâmpago\n\nTítulo original: De la soledad a 
+ la radicalización política\, ¿qué les pasa a los varones jóvenes en 
+ internet?\n\nDetalhes: https://giovanavilhena.github.io/agenda-lacigf-202
+ 6/#y17
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y17
+END:VEVENT
+BEGIN:VEVENT
+UID:y18@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261104T181500Z
+DTEND:20261104T183000Z
+SUMMARY:Youth LACIGF · Desigualdade\, direitos humanos\, pobreza e direit
+ o à tecnologia
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Fala-relâmpago\n\nTítulo original: Desigualdade\, D
+ ireitos Humanos\, Pobreza\, Direito à Tecnologia\n\nDetalhes: https://gi
+ ovanavilhena.github.io/agenda-lacigf-2026/#y18
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y18
+END:VEVENT
+BEGIN:VEVENT
+UID:y19@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261104T184000Z
+DTEND:20261104T191000Z
+SUMMARY:Youth LACIGF · Agentes de IA e cibersegurança: defendendo o futu
+ ro digital da América Latina e do Caribe
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Mesa-redonda\n\nTítulo original: Agentes de IA y Cib
+ erseguridad: Defendiendo el futuro digital de América Latina y el Caribe
+ \n\nDetalhes: https://giovanavilhena.github.io/agenda-lacigf-2026/#y19
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y19
+END:VEVENT
+BEGIN:VEVENT
+UID:y20@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261104T193000Z
+DTEND:20261104T203000Z
+SUMMARY:Youth LACIGF · Sessão do Youth Track
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Formato: Youth Track\n\nTítulo original: Youth Track Session\
+ n\nDetalhes: https://giovanavilhena.github.io/agenda-lacigf-2026/#y20
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y20
+END:VEVENT
+BEGIN:VEVENT
+UID:ye@agenda-lacigf-2026
+DTSTAMP:20261029T083001Z
+DTSTART:20261104T203000Z
+DTEND:20261104T210000Z
+SUMMARY:Youth LACIGF · Cerimônia de encerramento do Youth LACIGF
+LOCATION:Universidade de Fortaleza (Unifor)\, Av. Washington Soares 1321\,
+  Fortaleza - CE
+DESCRIPTION:Título original: Ceremonia de Cierre del evento\n\nDetalhes: 
+ https://giovanavilhena.github.io/agenda-lacigf-2026/#ye
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#ye
+END:VEVENT
+END:VCALENDAR
