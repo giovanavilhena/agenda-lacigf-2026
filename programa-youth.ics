@@ -1,0 +1,113 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Guia nao oficial//Agenda LACIGF 2026//PT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Programa Youth 2026: roteiro + extras
+X-WR-TIMEZONE:America/Fortaleza
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:pg1@agenda-lacigf-2026
+DTSTAMP:20261030T142017Z
+DTSTART:20261103T163000Z
+DTEND:20261103T180000Z
+SUMMARY:Programa Youth · Atividade de integração da delegação
+LOCATION:LIAD (OAB-CE)\, Rua Lívio Barreto 668\, Dionísio Torres\, Forta
+ leza - CE
+DESCRIPTION:Logo depois do almoço\; em seguida\, a delegação volta para
+  o Youth LACIGF.\n\nDetalhes: https://giovanavilhena.github.io/agenda-lac
+ igf-2026/#pg1
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#pg1
+END:VEVENT
+BEGIN:VEVENT
+UID:pg2@agenda-lacigf-2026
+DTSTAMP:20261030T142017Z
+DTSTART:20261104T220000Z
+DTEND:20261104T220000Z
+SUMMARY:Programa Youth · Rolê da delegação: karaokê
+LOCATION:Local a definir
+DESCRIPTION:Detalhes: https://giovanavilhena.github.io/agenda-lacigf-2026/
+ #pg2
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#pg2
+END:VEVENT
+BEGIN:VEVENT
+UID:ex1@agenda-lacigf-2026
+DTSTAMP:20261030T142017Z
+DTSTART:20261105T120000Z
+DTEND:20261105T210000Z
+SUMMARY:Extra · Abrint Nordeste 2026 (dia 1 de 2)
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Leste (Aracati e Iguape)\
+ , Av. Washington Soares 999\, Fortaleza - CE
+DESCRIPTION:5ª edição do encontro regional da Abrint (Associação Bras
+ ileira de Provedores de Internet). Inscrição gratuita no Sympla\, com d
+ oação de 2 kg de alimento não perecível.\n\nhttps://www.sympla.com.br
+ /evento/abrint-nordeste-2026/3472116\n\nDetalhes: https://giovanavilhena.
+ github.io/agenda-lacigf-2026/#ex1
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#ex1
+END:VEVENT
+BEGIN:VEVENT
+UID:pg3@agenda-lacigf-2026
+DTSTAMP:20261030T142017Z
+DTSTART:20261105T153000Z
+DTEND:20261105T170000Z
+SUMMARY:Programa Youth · Almoço da delegação com Bia Barbosa
+LOCATION:Local a confirmar
+DESCRIPTION:Detalhes: https://giovanavilhena.github.io/agenda-lacigf-2026/
+ #pg3
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#pg3
+END:VEVENT
+BEGIN:VEVENT
+UID:ex3@agenda-lacigf-2026
+DTSTAMP:20261030T142017Z
+DTSTART:20261105T213000Z
+DTEND:20261105T230000Z
+SUMMARY:Extra · ISOC@LAC IGF Social
+LOCATION:Vistta Rooftop Fortaleza\, Av. Santos Dumont 6740\, 22º andar\, 
+ Cocó\, Fortaleza - CE
+DESCRIPTION:Encontro da comunidade da Internet Society (ISOC)\, com inscri
+ ção pelo convite da ISOC. Não é bolsa nem apoio para ir ao LACIGF\, e
+  não há transporte até o local.\n\nDetalhes: https://giovanavilhena.gi
+ thub.io/agenda-lacigf-2026/#ex3
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#ex3
+END:VEVENT
+BEGIN:VEVENT
+UID:ex2@agenda-lacigf-2026
+DTSTAMP:20261030T142017Z
+DTSTART:20261106T120000Z
+DTEND:20261106T210000Z
+SUMMARY:Extra · Abrint Nordeste 2026 (dia 2 de 2)
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Leste (Aracati e Iguape)\
+ , Av. Washington Soares 999\, Fortaleza - CE
+DESCRIPTION:5ª edição do encontro regional da Abrint (Associação Bras
+ ileira de Provedores de Internet). Inscrição gratuita no Sympla\, com d
+ oação de 2 kg de alimento não perecível.\n\nhttps://www.sympla.com.br
+ /evento/abrint-nordeste-2026/3472116\n\nDetalhes: https://giovanavilhena.
+ github.io/agenda-lacigf-2026/#ex2
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#ex2
+END:VEVENT
+BEGIN:VEVENT
+UID:pg4@agenda-lacigf-2026
+DTSTAMP:20261030T142017Z
+DTSTART:20261106T135500Z
+DTEND:20261106T142500Z
+SUMMARY:Programa Youth · Apresentação da Carta em Defesa da Internet Ab
+ erta\, com Demi Getschko
+LOCATION:Local a confirmar
+DESCRIPTION:Painel com participação de toda a delegação.\n\nDetalhes: 
+ https://giovanavilhena.github.io/agenda-lacigf-2026/#pg4
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#pg4
+END:VEVENT
+BEGIN:VEVENT
+UID:pg5@agenda-lacigf-2026
+DTSTAMP:20261030T142017Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Programa Youth · Encerramento do Programa Youth
+LOCATION:Local a definir
+DESCRIPTION:Reflexões\, aprendizados e próximos passos. Dura 1 hora\; ho
+ rário e local a definir.\n\nDetalhes: https://giovanavilhena.github.io/a
+ genda-lacigf-2026/#pg5
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#pg5
+END:VEVENT
+END:VCALENDAR
