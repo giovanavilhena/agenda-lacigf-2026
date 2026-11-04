@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:la@agenda-lacigf-2026
-DTSTAMP:20261031T224713Z
+DTSTAMP:20261104T094724Z
 DTSTART:20261105T120000Z
 DTEND:20261105T124500Z
 SUMMARY:LACIGF · Inauguración del 19 LACIGF
@@ -23,7 +23,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#la
 END:VEVENT
 BEGIN:VEVENT
 UID:lp1@agenda-lacigf-2026
-DTSTAMP:20261031T224713Z
+DTSTAMP:20261104T094724Z
 DTSTART:20261105T124500Z
 DTEND:20261105T141500Z
 SUMMARY:LACIGF · Inteligencia artificial en América Latina
@@ -35,7 +35,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#lp1
 END:VEVENT
 BEGIN:VEVENT
 UID:l14640@agenda-lacigf-2026
-DTSTAMP:20261031T224713Z
+DTSTAMP:20261104T094724Z
 DTSTART:20261105T144500Z
 DTEND:20261105T160000Z
 SUMMARY:LACIGF · ¿Están seguros nuestros datos? ¿Cómo circulan?
@@ -53,7 +53,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#l14640
 END:VEVENT
 BEGIN:VEVENT
 UID:l14158@agenda-lacigf-2026
-DTSTAMP:20261031T224713Z
+DTSTAMP:20261104T094724Z
 DTSTART:20261105T144500Z
 DTEND:20261105T160000Z
 SUMMARY:LACIGF · Avanzando en derechos – enfrentamiento a las violencia
@@ -71,7 +71,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#l14158
 END:VEVENT
 BEGIN:VEVENT
 UID:l14735@agenda-lacigf-2026
-DTSTAMP:20261031T224713Z
+DTSTAMP:20261104T094724Z
 DTSTART:20261105T144500Z
 DTEND:20261105T160000Z
 SUMMARY:LACIGF · IA en justicia y sector público: salvaguardas regionale
@@ -93,7 +93,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#l14735
 END:VEVENT
 BEGIN:VEVENT
 UID:lp2@agenda-lacigf-2026
-DTSTAMP:20261031T224713Z
+DTSTAMP:20261104T094724Z
 DTSTART:20261105T171500Z
 DTEND:20261105T184500Z
 SUMMARY:LACIGF · Resiliencia\, ciberseguridad e infraestructura de Intern
@@ -106,7 +106,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#lp2
 END:VEVENT
 BEGIN:VEVENT
 UID:l14858@agenda-lacigf-2026
-DTSTAMP:20261031T224713Z
+DTSTAMP:20261104T094724Z
 DTSTART:20261105T190000Z
 DTEND:20261105T200000Z
 SUMMARY:LACIGF · Lo que no se nombra no se conoce: incidentes de ciberseg
@@ -126,7 +126,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#l14858
 END:VEVENT
 BEGIN:VEVENT
 UID:l13735@agenda-lacigf-2026
-DTSTAMP:20261031T224713Z
+DTSTAMP:20261104T094724Z
 DTSTART:20261105T190000Z
 DTEND:20261105T200000Z
 SUMMARY:LACIGF · Perspectivas amefricanas para enfrentamento ao Coloniali
@@ -145,7 +145,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#l13735
 END:VEVENT
 BEGIN:VEVENT
 UID:l14448@agenda-lacigf-2026
-DTSTAMP:20261031T224713Z
+DTSTAMP:20261104T094724Z
 DTSTART:20261105T190000Z
 DTEND:20261105T200000Z
 SUMMARY:LACIGF · ¿Internet agrava la crisis climática o ayuda a enfrent
@@ -163,7 +163,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#l14448
 END:VEVENT
 BEGIN:VEVENT
 UID:l14815@agenda-lacigf-2026
-DTSTAMP:20261031T224713Z
+DTSTAMP:20261104T094724Z
 DTSTART:20261105T200000Z
 DTEND:20261105T210000Z
 SUMMARY:LACIGF · Jardines sin muros: interoperabilidad\, código abierto 
@@ -183,7 +183,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#l14815
 END:VEVENT
 BEGIN:VEVENT
 UID:l15148@agenda-lacigf-2026
-DTSTAMP:20261031T224713Z
+DTSTAMP:20261104T094724Z
 DTSTART:20261105T200000Z
 DTEND:20261105T210000Z
 SUMMARY:LACIGF · Algoritmos con perspectiva social: Inclusión\, datos y 
@@ -203,7 +203,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#l15148
 END:VEVENT
 BEGIN:VEVENT
 UID:l15147@agenda-lacigf-2026
-DTSTAMP:20261031T224713Z
+DTSTAMP:20261104T094724Z
 DTSTART:20261105T200000Z
 DTEND:20261105T210000Z
 SUMMARY:LACIGF · Ruleta Regulatoria: apostando por el futuro de la gobern
@@ -224,7 +224,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#l15147
 END:VEVENT
 BEGIN:VEVENT
 UID:l14462@agenda-lacigf-2026
-DTSTAMP:20261031T224713Z
+DTSTAMP:20261104T094724Z
 DTSTART:20261105T210000Z
 DTEND:20261105T220000Z
 SUMMARY:LACIGF · Cuerpo no encontrado
@@ -240,7 +240,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#l14462
 END:VEVENT
 BEGIN:VEVENT
 UID:lp3@agenda-lacigf-2026
-DTSTAMP:20261031T224713Z
+DTSTAMP:20261104T094724Z
 DTSTART:20261106T120000Z
 DTEND:20261106T133000Z
 SUMMARY:LACIGF · Prohibir no es proteger: debates legislativos sobre infa
@@ -253,7 +253,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#lp3
 END:VEVENT
 BEGIN:VEVENT
 UID:l13685@agenda-lacigf-2026
-DTSTAMP:20261031T224713Z
+DTSTAMP:20261104T094724Z
 DTSTART:20261106T134500Z
 DTEND:20261106T150000Z
 SUMMARY:LACIGF · Aceptación Universal: ¿Puede existir la conectividad s
@@ -275,7 +275,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#l13685
 END:VEVENT
 BEGIN:VEVENT
 UID:l14600@agenda-lacigf-2026
-DTSTAMP:20261031T224713Z
+DTSTAMP:20261104T094724Z
 DTSTART:20261106T134500Z
 DTEND:20261106T150000Z
 SUMMARY:LACIGF · Cuando la protección de datos se vuelve un desafío: ac
@@ -295,7 +295,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#l14600
 END:VEVENT
 BEGIN:VEVENT
 UID:l14334@agenda-lacigf-2026
-DTSTAMP:20261031T224713Z
+DTSTAMP:20261104T094724Z
 DTSTART:20261106T134500Z
 DTEND:20261106T150000Z
 SUMMARY:LACIGF · El internet cuir/queer que queremos
@@ -313,7 +313,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#l14334
 END:VEVENT
 BEGIN:VEVENT
 UID:l15319@agenda-lacigf-2026
-DTSTAMP:20261031T224713Z
+DTSTAMP:20261104T094724Z
 DTSTART:20261106T150000Z
 DTEND:20261106T160000Z
 SUMMARY:LACIGF · El Tratado de la ONU sobre Cibercrimen y los desafíos y
@@ -334,7 +334,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#l15319
 END:VEVENT
 BEGIN:VEVENT
 UID:l15238@agenda-lacigf-2026
-DTSTAMP:20261031T224713Z
+DTSTAMP:20261104T094724Z
 DTSTART:20261106T150000Z
 DTEND:20261106T151500Z
 SUMMARY:LACIGF · Mejora regulatoria e innovación: bases para el desarrol
@@ -351,7 +351,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#l15238
 END:VEVENT
 BEGIN:VEVENT
 UID:l16540@agenda-lacigf-2026
-DTSTAMP:20261031T224713Z
+DTSTAMP:20261104T094724Z
 DTSTART:20261106T151500Z
 DTEND:20261106T160000Z
 SUMMARY:LACIGF · Lanzamiento de la investigación: Infancias y entornos d
@@ -366,7 +366,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#l16540
 END:VEVENT
 BEGIN:VEVENT
 UID:l14226@agenda-lacigf-2026
-DTSTAMP:20261031T224713Z
+DTSTAMP:20261104T094724Z
 DTSTART:20261106T150000Z
 DTEND:20261106T160000Z
 SUMMARY:LACIGF · Cuando votar no basta: exclusión\, integridad electoral
@@ -387,7 +387,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#l14226
 END:VEVENT
 BEGIN:VEVENT
 UID:l13768@agenda-lacigf-2026
-DTSTAMP:20261031T224713Z
+DTSTAMP:20261104T094724Z
 DTSTART:20261106T171500Z
 DTEND:20261106T183000Z
 SUMMARY:LACIGF · Comunicación resiliente como infraestructura crítica f
@@ -407,7 +407,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#l13768
 END:VEVENT
 BEGIN:VEVENT
 UID:l14155@agenda-lacigf-2026
-DTSTAMP:20261031T224713Z
+DTSTAMP:20261104T094724Z
 DTSTART:20261106T171500Z
 DTEND:20261106T183000Z
 SUMMARY:LACIGF · De la Internet de las Personas a la Internet de las Cosa
@@ -427,7 +427,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#l14155
 END:VEVENT
 BEGIN:VEVENT
 UID:l15076@agenda-lacigf-2026
-DTSTAMP:20261031T224713Z
+DTSTAMP:20261104T094724Z
 DTSTART:20261106T171500Z
 DTEND:20261106T183000Z
 SUMMARY:LACIGF · Construyendo entornos habilitantes para la conectividad 
@@ -446,7 +446,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#l15076
 END:VEVENT
 BEGIN:VEVENT
 UID:lp4@agenda-lacigf-2026
-DTSTAMP:20261031T224713Z
+DTSTAMP:20261104T094724Z
 DTSTART:20261106T190000Z
 DTEND:20261106T203000Z
 SUMMARY:LACIGF · Gobernanza Digital en América Latina y el Caribe
@@ -458,7 +458,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#lp4
 END:VEVENT
 BEGIN:VEVENT
 UID:le@agenda-lacigf-2026
-DTSTAMP:20261031T224713Z
+DTSTAMP:20261104T094724Z
 DTSTART:20261106T203000Z
 DTEND:20261106T210000Z
 SUMMARY:LACIGF · Cierre del 19 LACIGF
@@ -467,5 +467,157 @@ LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Puerta E)\, Av.
 DESCRIPTION:Palabras de despedida de las organizaciones convocantes.\n\nDe
  talles: https://giovanavilhena.github.io/agenda-lacigf-2026/es/#le
 URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#le
+END:VEVENT
+BEGIN:VEVENT
+UID:d0-intro@agenda-lacigf-2026
+DTSTAMP:20261104T094724Z
+DTSTART:20261104T120000Z
+DTEND:20261104T133000Z
+SUMMARY:LACIGF · Reunión introductoria. Conociendo el rol de los RIRs en
+  el ecosistema de Internet (LACNIC) y Gobernanza de internet (Secretaría
+  LACIGF)
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Puerta E)\, Av. 
+ Washington Soares 999\, Fortaleza - CE · Sala 1
+DESCRIPTION:Apertura del Día 0: LACNIC explica el rol de los registros re
+ gionales de Internet (RIR) y la Secretaría del LACIGF habla de gobernanz
+ a de Internet.\n\nhttps://lacigf.org/foro-lacigf-2026/dia-0-4-de-noviembr
+ e/#agendadia0\n\nDetalles: https://giovanavilhena.github.io/agenda-lacigf
+ -2026/es/#d0-intro
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#d0-intro
+END:VEVENT
+BEGIN:VEVENT
+UID:d0-cgi@agenda-lacigf-2026
+DTSTAMP:20261104T094724Z
+DTSTART:20261104T140000Z
+DTEND:20261104T150000Z
+SUMMARY:LACIGF · Recomendaciones de CGI.br para la Regulación de Platafo
+ rmas Digitales: directrices y clasificación de proveedores
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Puerta E)\, Av. 
+ Washington Soares 999\, Fortaleza - CE · Sala 3
+DESCRIPTION:Las Directrices del CGI.br para regular redes sociales y la Ti
+ pología de proveedores de aplicaciones\, cuyo razonamiento adoptaron la 
+ Corte Suprema y el decreto del Marco Civil da Internet.\n\nhttps://lacigf
+ .org/foro-lacigf-2026/dia-0-4-de-noviembre/#recomendaciones-de-cgibr\n\nM
+ esa: Rafael Evangelista (CGI.br\, comunidade científica e tecnológica)\
+ ; Juliana Oms (CGI.br)\; Jamila Venturini (Derechos Digitales)\n\nDetalle
+ s: https://giovanavilhena.github.io/agenda-lacigf-2026/es/#d0-cgi
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#d0-cgi
+END:VEVENT
+BEGIN:VEVENT
+UID:d0-violencia@agenda-lacigf-2026
+DTSTAMP:20261104T094724Z
+DTSTART:20261104T143000Z
+DTEND:20261104T160000Z
+SUMMARY:LACIGF · Violencia digital contra mujeres\, niñas y adolescentes
+ : prioridades regionales frente a la inteligencia artificial y las plataf
+ ormas
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Puerta E)\, Av. 
+ Washington Soares 999\, Fortaleza - CE · Sala 1
+DESCRIPTION:Diálogo regional sobre prioridades frente a la violencia digi
+ tal de género y sus impactos en la libertad de expresión y la participa
+ ción pública.\n\nGobierno de Brasil: representación por confirmar.\n\n
+ https://lacigf.org/foro-lacigf-2026/dia-0-4-de-noviembre/#violencia-digit
+ al-contra-mujeres\n\nMesa: Sandra Ramírez (Equality Now)\; Daniela Urrib
+ arri (Alianza Regional por la Libre Expresión e Información)\; María C
+ apurro (OBSERVACOM)\; Marcela Hernández Oropa (Defensoras Digitales)\n\n
+ Detalles: https://giovanavilhena.github.io/agenda-lacigf-2026/es/#d0-viol
+ encia
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#d0-violencia
+END:VEVENT
+BEGIN:VEVENT
+UID:d0-neutralidade@agenda-lacigf-2026
+DTSTAMP:20261104T094724Z
+DTSTART:20261104T150000Z
+DTEND:20261104T160000Z
+SUMMARY:LACIGF · La importancia de la neutralidad de la red
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Puerta E)\, Av. 
+ Washington Soares 999\, Fortaleza - CE · Sala 3
+DESCRIPTION:Mesa de Abrint con participantes de ISOC\, UFRGS\, LACNIC y Nu
+ pef.\n\nhttps://lacigf.org/foro-lacigf-2026/dia-0-4-de-noviembre/#importa
+ ncia-neutralidad\n\nMesa: Basílio Perez (Abrint)\; Wardner Maia (Abrint)
+ \; Juan Peirano (ISOC)\; Flávio Wagner (UFRGS / ISOC Brasil)\; Carlos Ma
+ rtinez (LACNIC (on-line))\; Carlos Afonso (Nupef)\n\nDetalles: https://gi
+ ovanavilhena.github.io/agenda-lacigf-2026/es/#d0-neutralidade
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#d0-neutralidad
+ e
+END:VEVENT
+BEGIN:VEVENT
+UID:d0-foc@agenda-lacigf-2026
+DTSTAMP:20261104T094724Z
+DTSTART:20261104T170000Z
+DTEND:20261104T183000Z
+SUMMARY:LACIGF · Freedom Online Coalition a los 15 años: Diálogo region
+ al de América Latina y el Caribe
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Puerta E)\, Av. 
+ Washington Soares 999\, Fortaleza - CE · Sala 1
+DESCRIPTION:Consulta regional por los 15 años de la FOC: tendencias de la
+  gobernanza digital\, enfoque multisectorial y prioridades de la región\
+ , rumbo a una declaración en el IGF de Nairobi.\n\nAbierta a personas re
+ gistradas en el LACIGF\; para asistir\, escribe a hannah@gp-digital.org.\
+ n\nhttps://lacigf.org/foro-lacigf-2026/dia-0-4-de-noviembre/#freedom-onli
+ ne-coalition\n\nMesa: Jorge Cancio (OFCOM\, Suíça)\; Jamila Venturini (
+ Derechos Digitales)\; Louise Karczeski (Data Privacy Brasil)\; Manuel Nú
+ ñez Lizano (Ministerio de Relaciones Exteriores y Culto de Costa Rica)\;
+  Rafael Evangelista (CGI.br)\; Sara Fratti (ILDA)\; Valeria Betancourt (A
+ PC)\n\nDetalles: https://giovanavilhena.github.io/agenda-lacigf-2026/es/#
+ d0-foc
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#d0-foc
+END:VEVENT
+BEGIN:VEVENT
+UID:d0-oficina@agenda-lacigf-2026
+DTSTAMP:20261104T094724Z
+DTSTART:20261104T170000Z
+DTEND:20261104T183000Z
+SUMMARY:LACIGF · Taller de construcción colectiva de una guía de incide
+ ncia frente a la violencia digital contra las mujeres\, adolescentes y ni
+ ñas
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Puerta E)\, Av. 
+ Washington Soares 999\, Fortaleza - CE · Sala 3
+DESCRIPTION:Espacio práctico para construir propuestas de acción: preven
+ ción\, atención\, protección\, acceso a la justicia\, reparación y go
+ bernanza digital.\n\nhttps://lacigf.org/foro-lacigf-2026/dia-0-4-de-novie
+ mbre/#taller-construccion-colectiva\n\nMesa: Heidy Esperanza Gordillo Bog
+ otá (Equality Now)\; Sandra Ramírez (Equality Now)\; Daniela Urribarri 
+ (Alianza Regional por la Libre Expresión e Información)\; Marcela Hern
+ ández Oropa (Red Latinoamericana de Defensoras Digitales - Ley Olimpia)\
+ n\nDetalles: https://giovanavilhena.github.io/agenda-lacigf-2026/es/#d0-o
+ ficina
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#d0-oficina
+END:VEVENT
+BEGIN:VEVENT
+UID:d0-infancias@agenda-lacigf-2026
+DTSTAMP:20261104T094724Z
+DTSTART:20261104T183000Z
+DTEND:20261104T200000Z
+SUMMARY:LACIGF · Una Internet para las infancias: prioridades y propuesta
+ s regionales para regular y proteger todos los derechos
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Puerta E)\, Av. 
+ Washington Soares 999\, Fortaleza - CE · Sala 1
+DESCRIPTION:Conversación multisectorial sobre reglas para proteger a niñ
+ as\, niños y adolescentes en línea sin debilitar derechos\, con interve
+ nciones breves y diálogo abierto.\n\nhttps://lacigf.org/foro-lacigf-2026
+ /dia-0-4-de-noviembre/#una-internet-para-las-infancias\n\nMesa: Vladimir 
+ Cortés (Digital Action)\; María Capurro Robles (OBSERVACOM)\n\nDetalles
+ : https://giovanavilhena.github.io/agenda-lacigf-2026/es/#d0-infancias
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#d0-infancias
+END:VEVENT
+BEGIN:VEVENT
+UID:d0-ia@agenda-lacigf-2026
+DTSTAMP:20261104T094724Z
+DTSTART:20261104T183000Z
+DTEND:20261104T213000Z
+SUMMARY:LACIGF · Gobernanza global de la IA desde América Latina
+LOCATION:Centro de Eventos do Ceará\, Pavilhão Aracati (Puerta E)\, Av. 
+ Washington Soares 999\, Fortaleza - CE · Sala 3
+DESCRIPTION:Intercambio regional sobre el futuro de la gobernanza global d
+ e la IA\, entre la primera y la segunda edición del Diálogo Global y la
+ s Cumbres sobre el Impacto de la IA.\n\nhttps://lacigf.org/foro-lacigf-20
+ 26/dia-0-4-de-noviembre/#gobernanza-global-ia\n\nMesa: Marina Meira (Dere
+ chos Digitales)\; Jamila Venturini (Derechos Digitales)\; Valeria Betanco
+ urt (APC)\; Jorge Cancio (OFCOM\, Suíça)\; Guilherme Fitzgibbon (Minist
+ ério das Relações Exteriores)\; Rafael Evangelista (CGI.br)\; Jaquelin
+ e Pigatto (Data Privacy Brasil)\n\nDetalles: https://giovanavilhena.githu
+ b.io/agenda-lacigf-2026/es/#d0-ia
+URL:https://giovanavilhena.github.io/agenda-lacigf-2026/es/#d0-ia
 END:VEVENT
 END:VCALENDAR
