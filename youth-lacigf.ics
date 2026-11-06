@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:yf@agenda-lacigf-2026
-DTSTAMP:20261104T094724Z
+DTSTAMP:20261106T150926Z
 DTSTART:20261102T210000Z
 DTEND:20261102T210000Z
 SUMMARY:Youth LACIGF · Coquetel de abertura do Youth LACIGF
@@ -20,7 +20,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#yf
 END:VEVENT
 BEGIN:VEVENT
 UID:ya@agenda-lacigf-2026
-DTSTAMP:20261104T094724Z
+DTSTAMP:20261106T150926Z
 DTSTART:20261103T113000Z
 DTEND:20261103T115000Z
 SUMMARY:Youth LACIGF · Abertura oficial do Youth LACIGF
@@ -32,7 +32,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#ya
 END:VEVENT
 BEGIN:VEVENT
 UID:y1@agenda-lacigf-2026
-DTSTAMP:20261104T094724Z
+DTSTAMP:20261106T150926Z
 DTSTART:20261103T120000Z
 DTEND:20261103T125000Z
 SUMMARY:Youth LACIGF · Da prática à réplica: laboratório de transfer
@@ -46,7 +46,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y1
 END:VEVENT
 BEGIN:VEVENT
 UID:y2@agenda-lacigf-2026
-DTSTAMP:20261104T094724Z
+DTSTAMP:20261106T150926Z
 DTSTART:20261103T130000Z
 DTEND:20261103T134000Z
 SUMMARY:Youth LACIGF · Entender a infraestrutura para incidir nas regras:
@@ -61,7 +61,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y2
 END:VEVENT
 BEGIN:VEVENT
 UID:y3@agenda-lacigf-2026
-DTSTAMP:20261104T094724Z
+DTSTAMP:20261106T150926Z
 DTSTART:20261103T140000Z
 DTEND:20261103T153000Z
 SUMMARY:Youth LACIGF · Agenda LGBTQIA+ e juventudes latino-americanas e c
@@ -76,7 +76,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y3
 END:VEVENT
 BEGIN:VEVENT
 UID:y4@agenda-lacigf-2026
-DTSTAMP:20261104T094724Z
+DTSTAMP:20261106T150926Z
 DTSTART:20261103T163000Z
 DTEND:20261103T170000Z
 SUMMARY:Youth LACIGF · O que acontece quando a IA vira um dos primeiros l
@@ -91,7 +91,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y4
 END:VEVENT
 BEGIN:VEVENT
 UID:y5@agenda-lacigf-2026
-DTSTAMP:20261104T094724Z
+DTSTAMP:20261106T150926Z
 DTSTART:20261103T171000Z
 DTEND:20261103T174000Z
 SUMMARY:Youth LACIGF · O que a América Latina pode aprender com o ECA Di
@@ -106,7 +106,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y5
 END:VEVENT
 BEGIN:VEVENT
 UID:y6@agenda-lacigf-2026
-DTSTAMP:20261104T094724Z
+DTSTAMP:20261106T150926Z
 DTSTART:20261103T175000Z
 DTEND:20261103T180500Z
 SUMMARY:Youth LACIGF · Educação domiciliar (homeschooling)\, autonomia 
@@ -121,7 +121,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y6
 END:VEVENT
 BEGIN:VEVENT
 UID:y7@agenda-lacigf-2026
-DTSTAMP:20261104T094724Z
+DTSTAMP:20261106T150926Z
 DTSTART:20261103T180500Z
 DTEND:20261103T182000Z
 SUMMARY:Youth LACIGF · Entre o fuzil e o wi-fi: recrutamento forçado de 
@@ -136,7 +136,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y7
 END:VEVENT
 BEGIN:VEVENT
 UID:y8@agenda-lacigf-2026
-DTSTAMP:20261104T094724Z
+DTSTAMP:20261106T150926Z
 DTSTART:20261103T183000Z
 DTEND:20261103T184500Z
 SUMMARY:Youth LACIGF · Mapeamento das vulnerabilidades de crianças e ado
@@ -149,7 +149,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y8
 END:VEVENT
 BEGIN:VEVENT
 UID:y9@agenda-lacigf-2026
-DTSTAMP:20261104T094724Z
+DTSTAMP:20261106T150926Z
 DTSTART:20261103T184500Z
 DTEND:20261103T190000Z
 SUMMARY:Youth LACIGF · Adolescência trans conectada: a construção da i
@@ -162,7 +162,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y9
 END:VEVENT
 BEGIN:VEVENT
 UID:y10@agenda-lacigf-2026
-DTSTAMP:20261104T094724Z
+DTSTAMP:20261106T150926Z
 DTSTART:20261103T192000Z
 DTEND:20261103T200000Z
 SUMMARY:Youth LACIGF · Oportunidades para juventudes na governança da in
@@ -176,7 +176,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y10
 END:VEVENT
 BEGIN:VEVENT
 UID:y11@agenda-lacigf-2026
-DTSTAMP:20261104T094724Z
+DTSTAMP:20261106T150926Z
 DTSTART:20261104T113000Z
 DTEND:20261104T122000Z
 SUMMARY:Youth LACIGF · Soberania de dados indígenas diante da era do ext
@@ -190,7 +190,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y11
 END:VEVENT
 BEGIN:VEVENT
 UID:y12@agenda-lacigf-2026
-DTSTAMP:20261104T094724Z
+DTSTAMP:20261106T150926Z
 DTSTART:20261104T123000Z
 DTEND:20261104T131000Z
 SUMMARY:Youth LACIGF · Quem pode decidir onde se instalam os data centers
@@ -205,7 +205,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y12
 END:VEVENT
 BEGIN:VEVENT
 UID:y13@agenda-lacigf-2026
-DTSTAMP:20261104T094724Z
+DTSTAMP:20261106T150926Z
 DTSTART:20261104T133000Z
 DTEND:20261104T153000Z
 SUMMARY:Youth LACIGF · Contextos eleitorais e governança da internet: vi
@@ -220,7 +220,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y13
 END:VEVENT
 BEGIN:VEVENT
 UID:y14@agenda-lacigf-2026
-DTSTAMP:20261104T094724Z
+DTSTAMP:20261106T150926Z
 DTSTART:20261104T163000Z
 DTEND:20261104T170000Z
 SUMMARY:Youth LACIGF · Democracia sequestrada: o cerco algorítmico à vo
@@ -235,7 +235,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y14
 END:VEVENT
 BEGIN:VEVENT
 UID:y15@agenda-lacigf-2026
-DTSTAMP:20261104T094724Z
+DTSTAMP:20261106T150926Z
 DTSTART:20261104T171000Z
 DTEND:20261104T172500Z
 SUMMARY:Youth LACIGF · Na mira 2: um panorama das ameaças digitais na Am
@@ -249,7 +249,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y15
 END:VEVENT
 BEGIN:VEVENT
 UID:y16@agenda-lacigf-2026
-DTSTAMP:20261104T094724Z
+DTSTAMP:20261106T150926Z
 DTSTART:20261104T173000Z
 DTEND:20261104T174500Z
 SUMMARY:Youth LACIGF · Práticas educativas\, inteligência artificial e 
@@ -262,7 +262,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y16
 END:VEVENT
 BEGIN:VEVENT
 UID:y17@agenda-lacigf-2026
-DTSTAMP:20261104T094724Z
+DTSTAMP:20261106T150926Z
 DTSTART:20261104T175500Z
 DTEND:20261104T181000Z
 SUMMARY:Youth LACIGF · Mudanças na responsabilização de intermediário
@@ -275,7 +275,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y17
 END:VEVENT
 BEGIN:VEVENT
 UID:y18@agenda-lacigf-2026
-DTSTAMP:20261104T094724Z
+DTSTAMP:20261106T150926Z
 DTSTART:20261104T181500Z
 DTEND:20261104T183000Z
 SUMMARY:Youth LACIGF · Desigualdade\, direitos humanos\, pobreza e direit
@@ -288,7 +288,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y18
 END:VEVENT
 BEGIN:VEVENT
 UID:y19@agenda-lacigf-2026
-DTSTAMP:20261104T094724Z
+DTSTAMP:20261106T150926Z
 DTSTART:20261104T184000Z
 DTEND:20261104T191000Z
 SUMMARY:Youth LACIGF · Agentes de IA e cibersegurança: defendendo o futu
@@ -302,7 +302,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y19
 END:VEVENT
 BEGIN:VEVENT
 UID:y20@agenda-lacigf-2026
-DTSTAMP:20261104T094724Z
+DTSTAMP:20261106T150926Z
 DTSTART:20261104T193000Z
 DTEND:20261104T203000Z
 SUMMARY:Youth LACIGF · Sessão do Youth Track
@@ -314,7 +314,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#y20
 END:VEVENT
 BEGIN:VEVENT
 UID:ye@agenda-lacigf-2026
-DTSTAMP:20261104T094724Z
+DTSTAMP:20261106T150926Z
 DTSTART:20261104T203000Z
 DTEND:20261104T210000Z
 SUMMARY:Youth LACIGF · Cerimônia de encerramento do Youth LACIGF
@@ -326,7 +326,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#ye
 END:VEVENT
 BEGIN:VEVENT
 UID:ys1@agenda-lacigf-2026
-DTSTAMP:20261104T094724Z
+DTSTAMP:20261106T150926Z
 DTSTART:20261105T120000Z
 DTEND:20261105T170000Z
 SUMMARY:Youth LACIGF · Foro Queer/Cuir de Internet
@@ -339,7 +339,7 @@ URL:https://giovanavilhena.github.io/agenda-lacigf-2026/#ys1
 END:VEVENT
 BEGIN:VEVENT
 UID:ys2@agenda-lacigf-2026
-DTSTAMP:20261104T094724Z
+DTSTAMP:20261106T150926Z
 DTSTART:20261105T180000Z
 DTEND:20261105T200000Z
 SUMMARY:Youth LACIGF · Imaginando futuros possíveis
